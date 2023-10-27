@@ -36,7 +36,7 @@ public class InitialComponents extends Reuseables {
 
 			co.setAcceptInsecureCerts(insecureCertificate);
 
-			if (headLessMode.equalsIgnoreCase("true")) {
+			if (headLessMode.equalsIgnoreCase("true") || headLessMode.equalsIgnoreCase("")) {
 				co.addArguments("--headless");
 			}
 
@@ -51,7 +51,7 @@ public class InitialComponents extends Reuseables {
 			}
 
 			fo.setAcceptInsecureCerts(insecureCertificate);
-			if (headLessMode.equalsIgnoreCase("true")) {
+			if (headLessMode.equalsIgnoreCase("true") || headLessMode.equalsIgnoreCase("")) {
 				fo.addArguments("--headless");
 			}
 			threadLocaldriver.set(new FirefoxDriver(fo));
@@ -64,7 +64,7 @@ public class InitialComponents extends Reuseables {
 				eo.setBrowserVersion(browserVersion);
 			}
 			eo.setAcceptInsecureCerts(insecureCertificate);
-			if (headLessMode.equalsIgnoreCase("true")) {
+			if (headLessMode.equalsIgnoreCase("true") || headLessMode.equalsIgnoreCase("")) {
 				eo.addArguments("--headless");
 			}
 			threadLocaldriver.set(new EdgeDriver(eo));
