@@ -5,6 +5,8 @@
     <classes>
       <class name="openCart.functionalTests.Dratf">
         <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
           <include name="draft"/>
         </methods>
       </class> <!-- openCart.functionalTests.Dratf -->

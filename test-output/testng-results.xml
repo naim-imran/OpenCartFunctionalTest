@@ -1,16 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-27T01:59:40 EDT" name="Default suite" finished-at="2023-10-27T01:59:49 EDT" duration-ms="9462">
+  <suite started-at="2023-10-27T04:49:12 EDT" name="Default suite" finished-at="2023-10-27T04:50:59 EDT" duration-ms="107589">
     <groups>
     </groups>
-    <test started-at="2023-10-27T01:59:40 EDT" name="Default test" finished-at="2023-10-27T01:59:49 EDT" duration-ms="9462">
+    <test started-at="2023-10-27T04:49:12 EDT" name="Default test" finished-at="2023-10-27T04:50:59 EDT" duration-ms="107589">
       <class name="openCart.functionalTests.Dratf">
-        <test-method signature="draft()[pri:0, instance:openCart.functionalTests.Dratf@694abbdc]" started-at="2023-10-27T01:59:40 EDT" name="draft" finished-at="2023-10-27T01:59:49 EDT" duration-ms="9400" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:49:12 EDT" name="launchBrowser" finished-at="2023-10-27T04:49:20 EDT" duration-ms="8360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="draft()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:49:20 EDT" name="draft" finished-at="2023-10-27T04:49:20 EDT" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- draft -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:49:20 EDT" name="closeBrowser" finished-at="2023-10-27T04:49:22 EDT" duration-ms="1907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:49:22 EDT" name="launchBrowser" finished-at="2023-10-27T04:49:29 EDT" duration-ms="6664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="draft1()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:49:29 EDT" name="draft1" finished-at="2023-10-27T04:49:29 EDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draft1 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:49:29 EDT" name="closeBrowser" finished-at="2023-10-27T04:49:30 EDT" duration-ms="1923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:49:30 EDT" name="launchBrowser" finished-at="2023-10-27T04:49:37 EDT" duration-ms="6543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="draft10()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:49:37 EDT" name="draft10" finished-at="2023-10-27T04:49:37 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draft10 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:49:37 EDT" name="closeBrowser" finished-at="2023-10-27T04:49:39 EDT" duration-ms="1773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:49:39 EDT" name="launchBrowser" finished-at="2023-10-27T04:49:46 EDT" duration-ms="6739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="draft11()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:49:46 EDT" name="draft11" finished-at="2023-10-27T04:49:46 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draft11 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:49:46 EDT" name="closeBrowser" finished-at="2023-10-27T04:49:47 EDT" duration-ms="1767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:49:47 EDT" name="launchBrowser" finished-at="2023-10-27T04:49:54 EDT" duration-ms="6865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="draft2()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:49:54 EDT" name="draft2" finished-at="2023-10-27T04:49:54 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draft2 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:49:54 EDT" name="closeBrowser" finished-at="2023-10-27T04:49:56 EDT" duration-ms="1934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:49:56 EDT" name="launchBrowser" finished-at="2023-10-27T04:50:03 EDT" duration-ms="6967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="draft3()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:50:03 EDT" name="draft3" finished-at="2023-10-27T04:50:03 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draft3 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:50:03 EDT" name="closeBrowser" finished-at="2023-10-27T04:50:05 EDT" duration-ms="1680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:50:05 EDT" name="launchBrowser" finished-at="2023-10-27T04:50:12 EDT" duration-ms="6759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="draft4()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:50:12 EDT" name="draft4" finished-at="2023-10-27T04:50:12 EDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draft4 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:50:12 EDT" name="closeBrowser" finished-at="2023-10-27T04:50:13 EDT" duration-ms="1672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:50:13 EDT" name="launchBrowser" finished-at="2023-10-27T04:50:20 EDT" duration-ms="6755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="draft5()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:50:20 EDT" name="draft5" finished-at="2023-10-27T04:50:20 EDT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draft5 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:50:20 EDT" name="closeBrowser" finished-at="2023-10-27T04:50:22 EDT" duration-ms="1867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:50:22 EDT" name="launchBrowser" finished-at="2023-10-27T04:50:29 EDT" duration-ms="7296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="draft6()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:50:29 EDT" name="draft6" finished-at="2023-10-27T04:50:29 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draft6 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:50:29 EDT" name="closeBrowser" finished-at="2023-10-27T04:50:31 EDT" duration-ms="1886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:50:31 EDT" name="launchBrowser" finished-at="2023-10-27T04:50:39 EDT" duration-ms="7818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="draft7()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:50:39 EDT" name="draft7" finished-at="2023-10-27T04:50:39 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draft7 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:50:39 EDT" name="closeBrowser" finished-at="2023-10-27T04:50:41 EDT" duration-ms="1791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:50:41 EDT" name="launchBrowser" finished-at="2023-10-27T04:50:48 EDT" duration-ms="7461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="draft8()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:50:48 EDT" name="draft8" finished-at="2023-10-27T04:50:48 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draft8 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:50:48 EDT" name="closeBrowser" finished-at="2023-10-27T04:50:50 EDT" duration-ms="2017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:50:50 EDT" name="launchBrowser" finished-at="2023-10-27T04:50:57 EDT" duration-ms="6695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="draft9()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:50:57 EDT" name="draft9" finished-at="2023-10-27T04:50:57 EDT" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draft9 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@6ae5aa72]" started-at="2023-10-27T04:50:57 EDT" name="closeBrowser" finished-at="2023-10-27T04:50:59 EDT" duration-ms="2173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- openCart.functionalTests.Dratf -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
