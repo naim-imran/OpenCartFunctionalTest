@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="Draft Test" parallel="classes" thread-count="10">
+  <test name="Draft Test" parallel="methods" thread-count="10">
     <classes>
       <class name="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
     </classes>

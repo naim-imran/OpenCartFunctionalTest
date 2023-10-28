@@ -20,7 +20,7 @@ public class R1dot1_TS001_RegisterFunctionality extends InitialComponents {
 	private HomePageObjects homePage;
 
 	@BeforeMethod
-	public void launchBrowser() {
+	public synchronized void launchBrowser() {
 		homePage = launchApplicationHomePage();
 	}
 	@AfterMethod

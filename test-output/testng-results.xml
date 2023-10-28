@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-28T05:58:08 EDT" name="Default suite" finished-at="2023-10-28T05:59:15 EDT" duration-ms="66757">
+  <suite started-at="2023-10-28T06:08:50 EDT" name="Suite" finished-at="2023-10-28T06:09:34 EDT" duration-ms="44442">
     <groups>
       <group name="negative">
         <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC004()[pri:4, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" name="r1dot1_TS001_TC004" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
@@ -25,93 +25,93 @@
         <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC028()[pri:28, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" name="r1dot1_TS001_TC028" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-10-28T05:58:08 EDT" name="Default test" finished-at="2023-10-28T05:59:15 EDT" duration-ms="66757">
+    <test started-at="2023-10-28T06:08:50 EDT" name="Draft Test" finished-at="2023-10-28T06:09:34 EDT" duration-ms="44442">
       <class name="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T05:58:08 EDT" name="launchBrowser" finished-at="2023-10-28T05:58:16 EDT" duration-ms="7342" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T06:08:50 EDT" name="launchBrowser" finished-at="2023-10-28T06:09:30 EDT" duration-ms="39479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS001_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T05:58:16 EDT" name="r1dot1_TS001_TC001" description="R1.1_TS001_TC001 As a user I should be able to Register an Account by providing only the Mandatory fields" finished-at="2023-10-28T05:58:20 EDT" duration-ms="4681" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- r1dot1_TS001_TC001 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T05:58:20 EDT" name="closeBrowser" finished-at="2023-10-28T05:58:20 EDT" duration-ms="209" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T05:58:20 EDT" name="launchBrowser" finished-at="2023-10-28T05:58:27 EDT" duration-ms="6033" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T06:08:50 EDT" name="launchBrowser" finished-at="2023-10-28T06:09:13 EDT" duration-ms="22842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS001_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T05:58:27 EDT" name="r1dot1_TS001_TC003" description="R1.1_TS001_TC003 Verify Registering an Account by providing all the fields" finished-at="2023-10-28T05:58:31 EDT" duration-ms="4690" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T06:08:50 EDT" name="launchBrowser" finished-at="2023-10-28T06:09:24 EDT" duration-ms="33690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T06:08:50 EDT" name="launchBrowser" finished-at="2023-10-28T06:09:08 EDT" duration-ms="17474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T06:08:50 EDT" name="launchBrowser" finished-at="2023-10-28T06:09:02 EDT" duration-ms="12156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T06:08:50 EDT" name="launchBrowser" finished-at="2023-10-28T06:09:18 EDT" duration-ms="28268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T06:08:50 EDT" name="launchBrowser" finished-at="2023-10-28T06:08:57 EDT" duration-ms="7157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="r1dot1_TS001_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T06:08:57 EDT" name="r1dot1_TS001_TC003" description="R1.1_TS001_TC003 Verify Registering an Account by providing all the fields" finished-at="2023-10-28T06:09:02 EDT" duration-ms="4513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS001_TC003 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T05:58:31 EDT" name="closeBrowser" finished-at="2023-10-28T05:58:31 EDT" duration-ms="193" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T06:09:02 EDT" name="closeBrowser" finished-at="2023-10-28T06:09:02 EDT" duration-ms="317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T05:58:31 EDT" name="launchBrowser" finished-at="2023-10-28T05:58:37 EDT" duration-ms="5755" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS001_TC004()[pri:4, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T05:58:37 EDT" name="r1dot1_TS001_TC004" description="R1.1_TS001_TC004 Verify proper error messages are displayed for the mandatory fields, when you don&#039;t provide any mandatory fields in the &#039;Register Account&#039; page and submit" finished-at="2023-10-28T05:58:39 EDT" duration-ms="2203" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- r1dot1_TS001_TC004 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T05:58:39 EDT" name="closeBrowser" finished-at="2023-10-28T05:58:40 EDT" duration-ms="214" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T05:58:40 EDT" name="launchBrowser" finished-at="2023-10-28T05:58:45 EDT" duration-ms="5783" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS001_TC005()[pri:5, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T05:58:45 EDT" name="r1dot1_TS001_TC005" description="R1.1_TS001_TC005 As an user I should be able to register an Account by providing only the Mandatory fields and &#039;Yes&#039; option is selected for Newsletter field" finished-at="2023-10-28T05:58:50 EDT" duration-ms="4696" status="PASS">
+        <test-method signature="r1dot1_TS001_TC005()[pri:5, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T06:09:02 EDT" name="r1dot1_TS001_TC005" description="R1.1_TS001_TC005 As an user I should be able to register an Account by providing only the Mandatory fields and &#039;Yes&#039; option is selected for Newsletter field" finished-at="2023-10-28T06:09:07 EDT" duration-ms="4572" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS001_TC005 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T05:58:50 EDT" name="closeBrowser" finished-at="2023-10-28T05:58:50 EDT" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T06:09:07 EDT" name="closeBrowser" finished-at="2023-10-28T06:09:07 EDT" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T05:58:50 EDT" name="launchBrowser" finished-at="2023-10-28T05:58:56 EDT" duration-ms="6142" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS001_TC006()[pri:6, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T05:58:56 EDT" name="r1dot1_TS001_TC006" description="R1.1_TS001_TC006 As an user when I navigate to the registration page Newsletter field &#039;No&#039; option should be pre-selected" finished-at="2023-10-28T05:58:58 EDT" duration-ms="1433" status="PASS">
+        <test-method signature="r1dot1_TS001_TC006()[pri:6, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T06:09:08 EDT" name="r1dot1_TS001_TC006" description="R1.1_TS001_TC006 As an user when I navigate to the registration page Newsletter field &#039;No&#039; option should be pre-selected" finished-at="2023-10-28T06:09:09 EDT" duration-ms="1440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS001_TC006 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T05:58:58 EDT" name="closeBrowser" finished-at="2023-10-28T05:58:58 EDT" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T06:09:09 EDT" name="closeBrowser" finished-at="2023-10-28T06:09:09 EDT" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T05:58:58 EDT" name="launchBrowser" finished-at="2023-10-28T05:59:04 EDT" duration-ms="5956" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS001_TC029()[pri:7, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T05:59:04 EDT" name="r1dot1_TS001_TC029" description="R1.1_TS001_TC029 As an user when I navigate to the registration page NEWSLETTER subscribe &quot;Yes&quot; checkBox shouldn’t be pre-selected." finished-at="2023-10-28T05:59:05 EDT" duration-ms="1385" status="PASS">
+        <test-method signature="r1dot1_TS001_TC029()[pri:7, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T06:09:13 EDT" name="r1dot1_TS001_TC029" description="R1.1_TS001_TC029 As an user when I navigate to the registration page NEWSLETTER subscribe &quot;Yes&quot; checkBox shouldn’t be pre-selected." finished-at="2023-10-28T06:09:14 EDT" duration-ms="1469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS001_TC029 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T05:59:05 EDT" name="closeBrowser" finished-at="2023-10-28T05:59:06 EDT" duration-ms="233" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T06:09:14 EDT" name="closeBrowser" finished-at="2023-10-28T06:09:15 EDT" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T05:59:06 EDT" name="launchBrowser" finished-at="2023-10-28T05:59:11 EDT" duration-ms="5552" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS001_TC028()[pri:28, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T05:59:11 EDT" name="r1dot1_TS001_TC028" description="R1.1_TS001_TC028 Verify the application throws proper error message when user click continue button without selecting privacy and policy check box." finished-at="2023-10-28T05:59:15 EDT" duration-ms="3620" status="PASS">
+        <test-method signature="r1dot1_TS001_TC028()[pri:28, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T06:09:18 EDT" name="r1dot1_TS001_TC028" description="R1.1_TS001_TC028 Verify the application throws proper error message when user click continue button without selecting privacy and policy check box." finished-at="2023-10-28T06:09:22 EDT" duration-ms="3364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS001_TC028 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T05:59:15 EDT" name="closeBrowser" finished-at="2023-10-28T05:59:15 EDT" duration-ms="142" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T06:09:22 EDT" name="closeBrowser" finished-at="2023-10-28T06:09:22 EDT" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="r1dot1_TS001_TC004()[pri:4, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T06:09:24 EDT" name="r1dot1_TS001_TC004" description="R1.1_TS001_TC004 Verify proper error messages are displayed for the mandatory fields, when you don&#039;t provide any mandatory fields in the &#039;Register Account&#039; page and submit" finished-at="2023-10-28T06:09:26 EDT" duration-ms="2235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- r1dot1_TS001_TC004 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T06:09:26 EDT" name="closeBrowser" finished-at="2023-10-28T06:09:26 EDT" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="r1dot1_TS001_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T06:09:30 EDT" name="r1dot1_TS001_TC001" description="R1.1_TS001_TC001 As a user I should be able to Register an Account by providing only the Mandatory fields" finished-at="2023-10-28T06:09:34 EDT" duration-ms="4634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- r1dot1_TS001_TC001 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@6f1de4c7]" started-at="2023-10-28T06:09:34 EDT" name="closeBrowser" finished-at="2023-10-28T06:09:34 EDT" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- openCart.functionalTests.R1dot1_TS001_RegisterFunctionality -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Draft Test -->
+  </suite> <!-- Suite -->
 </testng-results>
