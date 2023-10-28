@@ -17,6 +17,8 @@ public class InitialComponents extends Reuseables {
 	// listener class
 
 	private ThreadLocal<WebDriver> threadLocaldriver = new ThreadLocal<WebDriver>();
+	
+	
 
 	public WebDriver setupThreadLocalDriver() {
 
@@ -25,6 +27,8 @@ public class InitialComponents extends Reuseables {
 		String browserVersion = loadProperty().getProperty("browserVersion");
 		String headLessMode = loadProperty().getProperty("headlessMode");
 		boolean insecureCertificate = Boolean.parseBoolean(loadProperty().getProperty("insecureCertificate"));
+		
+		
 
 		if (browserName.equalsIgnoreCase("chrome") && threadLocaldriver.get() == null) {
 
@@ -34,9 +38,11 @@ public class InitialComponents extends Reuseables {
 				co.setBrowserVersion(browserVersion);
 			}
 
-			co.setAcceptInsecureCerts(insecureCertificate);
+			if (insecureCertificate) {
+				co.setAcceptInsecureCerts(insecureCertificate);
+			}
 
-			if (headLessMode.equalsIgnoreCase("true") || headLessMode.equalsIgnoreCase("")) {
+			if (headLessMode.equalsIgnoreCase("true")) {
 				co.addArguments("--headless");
 			}
 
@@ -50,8 +56,11 @@ public class InitialComponents extends Reuseables {
 				fo.setBrowserVersion(browserVersion);
 			}
 
-			fo.setAcceptInsecureCerts(insecureCertificate);
-			if (headLessMode.equalsIgnoreCase("true") || headLessMode.equalsIgnoreCase("")) {
+			if (insecureCertificate) {
+				fo.setAcceptInsecureCerts(insecureCertificate);
+			}
+
+			if (headLessMode.equalsIgnoreCase("true")) {
 				fo.addArguments("--headless");
 			}
 			threadLocaldriver.set(new FirefoxDriver(fo));
@@ -63,8 +72,12 @@ public class InitialComponents extends Reuseables {
 			if (!browserVersion.equalsIgnoreCase("")) {
 				eo.setBrowserVersion(browserVersion);
 			}
-			eo.setAcceptInsecureCerts(insecureCertificate);
-			if (headLessMode.equalsIgnoreCase("true") || headLessMode.equalsIgnoreCase("")) {
+
+			if (insecureCertificate) {
+				eo.setAcceptInsecureCerts(insecureCertificate);
+			}
+
+			if (headLessMode.equalsIgnoreCase("true")) {
 				eo.addArguments("--headless");
 			}
 			threadLocaldriver.set(new EdgeDriver(eo));
@@ -75,7 +88,7 @@ public class InitialComponents extends Reuseables {
 
 	public HomePageObjects launchApplicationHomePage() {
 		setupThreadLocalDriver();
-		System.out.println("Thread ID= " + Thread.currentThread().getId());
+		// System.out.println("Thread ID= " + Thread.currentThread().getId());
 		long implicitWaitTime = Long.parseLong(loadProperty().getProperty("implicitWaitTime"));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWaitTime));
 		driver.manage().window().maximize();
