@@ -1,14 +1,17 @@
 package openCart.functionalTests;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import base.InitialComponents;
 import pageObjectsfactory.HomePageObjects;
+import pageObjectsfactory.ProductDetailsPage;
 
 public class Dratf extends InitialComponents {
 	private HomePageObjects homePageObjects;
+	private String productName= "Canon EOS 5D";
 
 	@BeforeMethod
 	public void launchBrowser() {
@@ -23,6 +26,8 @@ public class Dratf extends InitialComponents {
 	@Test
 	public void draft() {
 		System.out.println(homePageObjects.getHomePageTitle());
+		ProductDetailsPage productDetailsPage= homePageObjects.clickHomePageFeaturedProduct(productName);
+		Assert.assertTrue(productDetailsPage.getrightColumnProductName().contains(productName));
 	}
 	
 	@Test

@@ -36,7 +36,7 @@ public class Reuseables {
 		FileInputStream fis = null;
 		try {
 			fis = new FileInputStream(System.getProperty("user.dir") + File.separator + "src" + File.separator + "main" + File.separator
-					+ "java" + File.separator + "base" + File.separator + "initialdata.properties");
+					+ "resources" + File.separator + "initialdata.properties");
 			prop = new Properties();
 			prop.load(fis);
 		} catch (IOException e) {

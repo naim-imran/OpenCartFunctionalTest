@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Draft Test" parallel="classes" thread-count="10">
     <classes>
-      <class name="openCart.functionalTests.Dratf"/>
+      <class name="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
     </classes>
   </test> <!-- Draft Test -->
 </suite> <!-- Suite -->
