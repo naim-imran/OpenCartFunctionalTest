@@ -1,11 +1,23 @@
 package pageObjectsfactory;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 
-public class LogOutPage {
+public class LogOutPage extends CommonElements {
+	private WebDriver driver;
 
 	public LogOutPage(WebDriver driver) {
-		// TODO Auto-generated constructor stub
+		super(driver);
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}
+
+	public String getPageTitle() {
+		return driver.getTitle();
+	}
+
+	public void validateLogoutPageFooterLinks() {
+		validateAllFooterLinks(driver);
 	}
 
 }
