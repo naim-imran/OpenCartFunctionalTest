@@ -10,18 +10,18 @@ public class ProductDetailsPage {
 	private WebDriver driver;
 
 	public ProductDetailsPage(WebDriver driver) {
-		this.driver= driver;
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	
-	
-	
-	
-	public String getProductDetailsPageTitle() { return driver.getTitle(); }
-	 
-	
-	@FindBy(xpath= "//div[@class='col-sm-4']/div[@class='btn-group']/following-sibling::h1")
+
+	@FindBy(xpath = "//div[@class='col-sm-4']/div[@class='btn-group']/following-sibling::h1")
 	private WebElement rightColumnProductName;
+
+	public String getProductDetailsPageTitle() {
+		return driver.getTitle();
+	}
+	
+
 	
 	public String getrightColumnProductName() {
 		return rightColumnProductName.getText();

@@ -103,7 +103,6 @@ public class Reuseables {
 				e.printStackTrace();
 			}
 		}
-
 		return hashMap;
 	}
 
@@ -203,7 +202,9 @@ public class Reuseables {
 				e.printStackTrace();
 			}
 		}
-
 		return dataList;
 	}
+	
+	
 }
+

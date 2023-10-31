@@ -96,7 +96,7 @@ public class InitialComponents extends Reuseables {
 		return new HomePageObjects(driver);
 	}
 
-	public void quitDriver() {
+	public synchronized void quitDriver() {
 		WebDriver driver = threadLocaldriver.get();
 		if (driver != null) {
 			driver.quit();

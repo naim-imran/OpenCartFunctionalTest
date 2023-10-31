@@ -55,7 +55,8 @@ public class R1dot1_TS003_LogoutFunctionality extends InitialComponents {
 		LogOutPage logOutPage = accountPage.click_logoutButtonRightColumn();
 		Assert.assertEquals(logOutPage.getPageTitle(), "Account Logout");
 	}
-
+	
+	// Jira issue-link https://naayeem.atlassian.net/browse/TN-51
 	@Test(priority = 3, groups = { SMOKE,
 			POSSITIVE }, description = "R1.1_TS003_TC003 Verify the Application session status, after logging and closing the Browser without logging out")
 	public void r1dot1_TS003_TC003() {
