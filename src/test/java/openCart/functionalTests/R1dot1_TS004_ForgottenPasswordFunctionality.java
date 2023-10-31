@@ -18,7 +18,7 @@ public class R1dot1_TS004_ForgottenPasswordFunctionality extends InitialComponen
 
 
 	@BeforeMethod
-	public synchronized void launchBrowser() {
+	public void launchBrowser() {
 		homePage = launchApplicationHomePage();
 	}
 

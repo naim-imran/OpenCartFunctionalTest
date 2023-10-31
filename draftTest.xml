@@ -15,6 +15,8 @@
 				name="openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality" />
 			<class
 				name="openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality" />
+				<class
+				name="openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality" />
 
 		</classes>
 	</test> <!--
