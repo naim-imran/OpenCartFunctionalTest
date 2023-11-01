@@ -56,7 +56,7 @@ public class SearchResultPage {
 				System.out.println(e.findElement(By.cssSelector("h4")).getText());
 				e.findElement(By.cssSelector("button[data-original-title='Compare this Product']")).click();
 				try {
-					Thread.sleep(1000);
+					Thread.sleep(3000);
 				} catch (InterruptedException e1) {
 					e1.printStackTrace();
 				}
