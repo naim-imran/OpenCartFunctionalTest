@@ -25,12 +25,18 @@ import org.openqa.selenium.WebDriver;
 
 import com.github.javafaker.Faker;
 
+import pageObjectsfactory.CommonElements;
+
 public class Reuseables {
+
+
 	public static final String SMOKE = "smoke";
 	public static final String REGRESSION = "regression";
 	public static final String POSSITIVE = "possitive";
 	public static final String NEGATIVE = "negative";
 	private Properties prop;
+	
+
 
 	public Properties loadProperty() {
 		FileInputStream fis = null;

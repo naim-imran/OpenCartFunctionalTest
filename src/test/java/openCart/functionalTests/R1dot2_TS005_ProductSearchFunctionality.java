@@ -15,7 +15,6 @@ import pageObjectsfactory.SearchResultPage;
 
 public class R1dot2_TS005_ProductSearchFunctionality extends InitialComponents {
 	
-
 	private HomePageObjects homePage;
 
 	@BeforeMethod
@@ -34,7 +33,7 @@ public class R1dot2_TS005_ProductSearchFunctionality extends InitialComponents {
 		Assert.assertEquals("Qafox.com", homePage.getLogoText());
 		String productName= "Mac";
 		String expectedProduct= "MacBook";
-		homePage.setText(productName);
+		homePage.setTextOnSearchBox(productName);
 		SearchResultPage searchResultPage = homePage.clickSearchButton();
 		Assert.assertEquals("Search - " + productName, searchResultPage.getSearchedItemText());
 		ProductDetailsPage productDetailsPage = searchResultPage.click_Product(expectedProduct);
@@ -45,7 +44,6 @@ public class R1dot2_TS005_ProductSearchFunctionality extends InitialComponents {
 	@Test(groups = {SMOKE,POSSITIVE}, dataProvider = "productList", priority = 2, description = "R1.2_TS005_TC024 Verify user can select a product from featured product list from HomePage")
 	public void R1dot2_TS005_TC024(String name) {
 		String productName = name;
-		HomePageObjects homePage = launchApplicationHomePage();
 		Assert.assertEquals("Qafox.com", homePage.getLogoText());
 		ProductDetailsPage ProductDetailsPage = homePage.clickHomePageFeaturedProduct(productName);
 		Assert.assertEquals(ProductDetailsPage.getrightColumnProductName(), productName);

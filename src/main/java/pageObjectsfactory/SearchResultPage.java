@@ -11,10 +11,11 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class SearchResultPage {
+public class SearchResultPage extends CommonElements{
 	private WebDriver driver;
 
 	public SearchResultPage(WebDriver driver) {
+		super(driver);
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
@@ -55,6 +56,21 @@ public class SearchResultPage {
 			if (e.findElement(By.cssSelector("h4")).getText().equalsIgnoreCase(expectedProductName)) {
 				System.out.println(e.findElement(By.cssSelector("h4")).getText());
 				e.findElement(By.cssSelector("button[data-original-title='Compare this Product']")).click();
+				try {
+					Thread.sleep(3000);
+				} catch (InterruptedException e1) {
+					e1.printStackTrace();
+				}
+			}
+		}
+	}
+	
+	public void click_addToCartButton(String expectedProductName) {
+		for (WebElement e : listOfsearchedProduct) {
+			
+			if (e.findElement(By.cssSelector("h4")).getText().equalsIgnoreCase(expectedProductName)) {
+				//System.out.println(e.findElement(By.cssSelector("h4")).getText());
+				e.findElement(By.cssSelector("span.hidden-xs")).click();
 				try {
 					Thread.sleep(3000);
 				} catch (InterruptedException e1) {

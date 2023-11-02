@@ -22,26 +22,26 @@ public class Dratf extends InitialComponents {
 	}
 	
 	
-	@Test(description = "fail test")
+	@Test(description = "fail test 01")
 	public void draft() {
 		Assert.assertTrue(false);
 		homePage.getHomePageTitle();
 
 	}
 	
-	@Test(description = "fail test")
+	@Test(description = "fail test 02")
 	public void draft1() {
 		Assert.assertTrue(false);
 
 	}
 	
-	@Test(description = "fail test")
+	@Test(description = "fail test 03")
 	public void draft2() {
 		Assert.assertTrue(false);
 
 	}
 	
-	@Test(description = "fail test")
+	@Test(description = "fail test 04")
 	public void draft3() {
 		Assert.assertTrue(false);
 

@@ -29,7 +29,7 @@ public class R1dot2_TS006_ProductCompareFunctionality extends InitialComponents 
 
 		Assert.assertEquals("Qafox.com", homePage.getLogoText());
 		String productName = "Mac";
-		homePage.setText(productName);
+		homePage.setTextOnSearchBox(productName);
 		SearchResultPage searchResultPage = homePage.clickSearchButton();
 		Assert.assertEquals("Search - " + productName, searchResultPage.getSearchedItemText());
 

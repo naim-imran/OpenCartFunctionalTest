@@ -12,13 +12,15 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 import pageObjectsfactory.HomePageObjects;
 
-public class InitialComponents extends Reuseables {
+public class InitialComponents extends Reuseables{
+	
+
 	public WebDriver driver;// driver has to be public because we have to get it through reflection API in
 	// listener class
 
 	private ThreadLocal<WebDriver> threadLocaldriver = new ThreadLocal<WebDriver>();
 	
-	
+
 
 	public WebDriver setupThreadLocalDriver() {
 

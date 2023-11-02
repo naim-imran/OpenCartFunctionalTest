@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import base.InitialComponents;
+import base.Reuseables;
 import pageObjectsfactory.AccountCreationSuccessPage;
 import pageObjectsfactory.HomePageObjects;
 import pageObjectsfactory.MyAccountPage;
@@ -18,11 +19,14 @@ import pageObjectsfactory.RegistrationPage;
 public class R1dot1_TS001_RegisterFunctionality extends InitialComponents {
 	
 	private HomePageObjects homePage;
+	
 
 	@BeforeMethod
 	public synchronized void launchBrowser() {
+
 		homePage = launchApplicationHomePage();
 	}
+
 	@AfterMethod
 	public void closeBrowser() {
 		quitDriver();

@@ -15,7 +15,7 @@ import base.Reuseables;
 
 
 
-public class CommonElements {
+public class CommonElements{
 
 	private WebDriver driver;
 
@@ -72,7 +72,7 @@ public class CommonElements {
 		return logo.getText();
 	}
 
-	public void setText(String productName) {
+	public void setTextOnSearchBox(String productName) {
 		searchBox.sendKeys(productName);
 	}
 

@@ -3,16 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="openCart.functionalTests.Dratf">
+      <class name="openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality">
         <methods>
-          <include name="draft2"/>
           <include name="closeBrowser"/>
           <include name="launchBrowser"/>
-          <include name="draft3"/>
-          <include name="draft1"/>
-          <include name="draft"/>
+          <include name="R1dot3_TS008_TC003"/>
         </methods>
-      </class> <!-- openCart.functionalTests.Dratf -->
+      </class> <!-- openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

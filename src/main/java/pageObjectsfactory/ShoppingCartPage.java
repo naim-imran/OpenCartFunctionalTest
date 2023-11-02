@@ -16,6 +16,9 @@ public class ShoppingCartPage {
 	//
 	@FindBy(xpath="//div[@id='content']/p[text()='Your shopping cart is empty!']")
 	private WebElement yourCartIsEmptyText;
+	//
+	@FindBy(css = "table.table-bordered tbody tr td.text-left a")
+	private WebElement productNameFromCartTable;
 	
 	
 	
@@ -27,6 +30,10 @@ public class ShoppingCartPage {
 	//
 	public String getCartIsEmptyText() {
 		return yourCartIsEmptyText.getText();
+	}
+	// returns the name of the product in cart table
+	public String getProductNameFromCartTable() {
+		return productNameFromCartTable.getText();
 	}
 
 }

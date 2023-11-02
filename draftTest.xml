@@ -24,8 +24,11 @@
 			<class
 				name="openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality" />
 			<class
+				name="openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality" />
+			<class
 				name="openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality" />
+
 		</classes>
-	</test> 
+	</test>
 
 </suite>

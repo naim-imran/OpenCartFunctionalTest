@@ -1,85 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="10" ignored="0" total="36" passed="21" failed="5" skipped="0">
+<testng-results retried="10" ignored="0" total="37" passed="22" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-01T06:44:58 EDT" name="Suite" finished-at="2023-11-01T06:46:52 EDT" duration-ms="114445">
+  <suite started-at="2023-11-02T06:04:34 EDT" name="Suite" finished-at="2023-11-02T06:06:47 EDT" duration-ms="133190">
     <groups>
       <group name="negative">
-        <method signature="R1dot3_TS012_CheckoutFunctionality.R1dot3_TS012_TC001()[pri:0, instance:openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality@9d5509a]" name="R1dot3_TS012_TC001" class="openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality"/>
-        <method signature="R1dot1_TS002_LoginFunctionality.r1dot1_TS002_TC002()[pri:1, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@3eb738bb]" name="r1dot1_TS002_TC002" class="openCart.functionalTests.R1dot1_TS002_LoginFunctionality"/>
-        <method signature="R1dot1_TS002_LoginFunctionality.r1dot1_TS002_TC003()[pri:1, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@3eb738bb]" name="r1dot1_TS002_TC003" class="openCart.functionalTests.R1dot1_TS002_LoginFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC004()[pri:4, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" name="r1dot1_TS001_TC004" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC006()[pri:6, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" name="r1dot1_TS001_TC006" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC029()[pri:7, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" name="r1dot1_TS001_TC029" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC028()[pri:28, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" name="r1dot1_TS001_TC028" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
+        <method signature="R1dot3_TS012_CheckoutFunctionality.R1dot3_TS012_TC001()[pri:0, instance:openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality@3cd3e762]" name="R1dot3_TS012_TC001" class="openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality"/>
+        <method signature="R1dot1_TS002_LoginFunctionality.r1dot1_TS002_TC002()[pri:1, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" name="r1dot1_TS002_TC002" class="openCart.functionalTests.R1dot1_TS002_LoginFunctionality"/>
+        <method signature="R1dot1_TS002_LoginFunctionality.r1dot1_TS002_TC003()[pri:1, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" name="r1dot1_TS002_TC003" class="openCart.functionalTests.R1dot1_TS002_LoginFunctionality"/>
+        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC004()[pri:4, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC004" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
+        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC006()[pri:6, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC006" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
+        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC029()[pri:7, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC029" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
+        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC028()[pri:28, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC028" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
       </group> <!-- negative -->
       <group name="possitive">
-        <method signature="R1dot1_TS002_LoginFunctionality.r1dot1_TS002_TC001()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@3eb738bb]" name="r1dot1_TS002_TC001" class="openCart.functionalTests.R1dot1_TS002_LoginFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" name="r1dot1_TS001_TC001" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@5bda8e08]" name="r1dot1_TS003_TC001" class="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality"/>
-        <method signature="R1dot1_TS004_ForgottenPasswordFunctionality.r1dot1_TS004_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@1e800aaa]" name="r1dot1_TS004_TC001" class="openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality"/>
-        <method signature="R1dot2_TS005_ProductSearchFunctionality.r1dot2_TS005_TC001()[pri:1, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@185a6e9]" name="r1dot2_TS005_TC001" class="openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality"/>
-        <method signature="R1dot2_TS006_ProductCompareFunctionality.r1dot2_TS006_TC001()[pri:1, instance:openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality@6f03482]" name="r1dot2_TS006_TC001" class="openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality"/>
-        <method signature="R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC002()[pri:2, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@5bda8e08]" name="r1dot1_TS003_TC002" class="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality"/>
-        <method signature="R1dot1_TS004_ForgottenPasswordFunctionality.r1dot1_TS004_TC002()[pri:2, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@1e800aaa]" name="r1dot1_TS004_TC002" class="openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality"/>
-        <method signature="R1dot2_TS005_ProductSearchFunctionality.R1dot2_TS005_TC024(java.lang.String)[pri:2, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@185a6e9]" name="R1dot2_TS005_TC024" class="openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" name="r1dot1_TS001_TC003" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@5bda8e08]" name="r1dot1_TS003_TC003" class="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC005()[pri:5, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" name="r1dot1_TS001_TC005" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
+        <method signature="R1dot1_TS002_LoginFunctionality.r1dot1_TS002_TC001()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" name="r1dot1_TS002_TC001" class="openCart.functionalTests.R1dot1_TS002_LoginFunctionality"/>
+        <method signature="R1dot3_TS008_AddToCartFunctionality.R1dot3_TS008_TC003()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@3b0090a4]" name="R1dot3_TS008_TC003" class="openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality"/>
+        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC001" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
+        <method signature="R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" name="r1dot1_TS003_TC001" class="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality"/>
+        <method signature="R1dot1_TS004_ForgottenPasswordFunctionality.r1dot1_TS004_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@6f03482]" name="r1dot1_TS004_TC001" class="openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality"/>
+        <method signature="R1dot2_TS005_ProductSearchFunctionality.r1dot2_TS005_TC001()[pri:1, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" name="r1dot2_TS005_TC001" class="openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality"/>
+        <method signature="R1dot2_TS006_ProductCompareFunctionality.r1dot2_TS006_TC001()[pri:1, instance:openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality@179ece50]" name="r1dot2_TS006_TC001" class="openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality"/>
+        <method signature="R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC002()[pri:2, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" name="r1dot1_TS003_TC002" class="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality"/>
+        <method signature="R1dot1_TS004_ForgottenPasswordFunctionality.r1dot1_TS004_TC002()[pri:2, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@6f03482]" name="r1dot1_TS004_TC002" class="openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality"/>
+        <method signature="R1dot2_TS005_ProductSearchFunctionality.R1dot2_TS005_TC024(java.lang.String)[pri:2, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" name="R1dot2_TS005_TC024" class="openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality"/>
+        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC003" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
+        <method signature="R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" name="r1dot1_TS003_TC003" class="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality"/>
+        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC005()[pri:5, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC005" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
       </group> <!-- possitive -->
       <group name="smoke">
-        <method signature="R1dot1_TS002_LoginFunctionality.r1dot1_TS002_TC001()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@3eb738bb]" name="r1dot1_TS002_TC001" class="openCart.functionalTests.R1dot1_TS002_LoginFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" name="r1dot1_TS001_TC001" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS002_LoginFunctionality.r1dot1_TS002_TC002()[pri:1, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@3eb738bb]" name="r1dot1_TS002_TC002" class="openCart.functionalTests.R1dot1_TS002_LoginFunctionality"/>
-        <method signature="R1dot1_TS002_LoginFunctionality.r1dot1_TS002_TC003()[pri:1, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@3eb738bb]" name="r1dot1_TS002_TC003" class="openCart.functionalTests.R1dot1_TS002_LoginFunctionality"/>
-        <method signature="R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@5bda8e08]" name="r1dot1_TS003_TC001" class="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality"/>
-        <method signature="R1dot1_TS004_ForgottenPasswordFunctionality.r1dot1_TS004_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@1e800aaa]" name="r1dot1_TS004_TC001" class="openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality"/>
-        <method signature="R1dot2_TS005_ProductSearchFunctionality.r1dot2_TS005_TC001()[pri:1, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@185a6e9]" name="r1dot2_TS005_TC001" class="openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality"/>
-        <method signature="R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC002()[pri:2, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@5bda8e08]" name="r1dot1_TS003_TC002" class="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality"/>
-        <method signature="R1dot1_TS004_ForgottenPasswordFunctionality.r1dot1_TS004_TC002()[pri:2, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@1e800aaa]" name="r1dot1_TS004_TC002" class="openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality"/>
-        <method signature="R1dot2_TS005_ProductSearchFunctionality.R1dot2_TS005_TC024(java.lang.String)[pri:2, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@185a6e9]" name="R1dot2_TS005_TC024" class="openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" name="r1dot1_TS001_TC003" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@5bda8e08]" name="r1dot1_TS003_TC003" class="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC004()[pri:4, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" name="r1dot1_TS001_TC004" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC005()[pri:5, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" name="r1dot1_TS001_TC005" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC006()[pri:6, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" name="r1dot1_TS001_TC006" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC029()[pri:7, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" name="r1dot1_TS001_TC029" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC028()[pri:28, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" name="r1dot1_TS001_TC028" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
+        <method signature="R1dot1_TS002_LoginFunctionality.r1dot1_TS002_TC001()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" name="r1dot1_TS002_TC001" class="openCart.functionalTests.R1dot1_TS002_LoginFunctionality"/>
+        <method signature="R1dot3_TS008_AddToCartFunctionality.R1dot3_TS008_TC003()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@3b0090a4]" name="R1dot3_TS008_TC003" class="openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality"/>
+        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC001" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
+        <method signature="R1dot1_TS002_LoginFunctionality.r1dot1_TS002_TC002()[pri:1, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" name="r1dot1_TS002_TC002" class="openCart.functionalTests.R1dot1_TS002_LoginFunctionality"/>
+        <method signature="R1dot1_TS002_LoginFunctionality.r1dot1_TS002_TC003()[pri:1, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" name="r1dot1_TS002_TC003" class="openCart.functionalTests.R1dot1_TS002_LoginFunctionality"/>
+        <method signature="R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" name="r1dot1_TS003_TC001" class="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality"/>
+        <method signature="R1dot1_TS004_ForgottenPasswordFunctionality.r1dot1_TS004_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@6f03482]" name="r1dot1_TS004_TC001" class="openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality"/>
+        <method signature="R1dot2_TS005_ProductSearchFunctionality.r1dot2_TS005_TC001()[pri:1, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" name="r1dot2_TS005_TC001" class="openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality"/>
+        <method signature="R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC002()[pri:2, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" name="r1dot1_TS003_TC002" class="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality"/>
+        <method signature="R1dot1_TS004_ForgottenPasswordFunctionality.r1dot1_TS004_TC002()[pri:2, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@6f03482]" name="r1dot1_TS004_TC002" class="openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality"/>
+        <method signature="R1dot2_TS005_ProductSearchFunctionality.R1dot2_TS005_TC024(java.lang.String)[pri:2, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" name="R1dot2_TS005_TC024" class="openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality"/>
+        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC003" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
+        <method signature="R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" name="r1dot1_TS003_TC003" class="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality"/>
+        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC004()[pri:4, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC004" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
+        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC005()[pri:5, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC005" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
+        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC006()[pri:6, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC006" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
+        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC029()[pri:7, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC029" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
+        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC028()[pri:28, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC028" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-11-01T06:44:58 EDT" name="Draft_Test" finished-at="2023-11-01T06:46:52 EDT" duration-ms="114445">
-      <class name="openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality@6f03482]" started-at="2023-11-01T06:44:58 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:11 EDT" duration-ms="12757" status="PASS">
+    <test started-at="2023-11-02T06:04:34 EDT" name="Draft_Test" finished-at="2023-11-02T06:06:47 EDT" duration-ms="133190">
+      <class name="openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@3b0090a4]" started-at="2023-11-02T06:04:34 EDT" name="launchBrowser" finished-at="2023-11-02T06:04:51 EDT" duration-ms="16391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot2_TS006_TC001()[pri:1, instance:openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality@6f03482]" started-at="2023-11-01T06:45:11 EDT" name="r1dot2_TS006_TC001" description="R1.2_TS006_TC001 As an user I should be able to select products for comparison." finished-at="2023-11-01T06:45:36 EDT" duration-ms="25037" status="PASS">
+        <test-method signature="R1dot3_TS008_TC003()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@3b0090a4]" started-at="2023-11-02T06:04:51 EDT" name="R1dot3_TS008_TC003" description="As an user I can  add  product to Cart from Search Results Page" finished-at="2023-11-02T06:04:58 EDT" duration-ms="7619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- R1dot3_TS008_TC003 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@3b0090a4]" started-at="2023-11-02T06:04:58 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:04 EDT" duration-ms="5343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality -->
+      <class name="openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality@179ece50]" started-at="2023-11-02T06:04:34 EDT" name="launchBrowser" finished-at="2023-11-02T06:04:49 EDT" duration-ms="15059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="r1dot2_TS006_TC001()[pri:1, instance:openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality@179ece50]" started-at="2023-11-02T06:04:49 EDT" name="r1dot2_TS006_TC001" description="R1.2_TS006_TC001 As an user I should be able to select products for comparison." finished-at="2023-11-02T06:05:14 EDT" duration-ms="24807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot2_TS006_TC001 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality@6f03482]" started-at="2023-11-01T06:45:36 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:38 EDT" duration-ms="2136" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality@179ece50]" started-at="2023-11-02T06:05:14 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:15 EDT" duration-ms="565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality -->
       <class name="openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@185a6e9]" started-at="2023-11-01T06:44:58 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:09 EDT" duration-ms="10612" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:04:34 EDT" name="launchBrowser" finished-at="2023-11-02T06:04:44 EDT" duration-ms="10210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot2_TS005_TC001()[pri:1, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@185a6e9]" started-at="2023-11-01T06:45:09 EDT" name="r1dot2_TS005_TC001" description="R1.2_TS005_TC001 As an user I should be able to search a product which is present in database." finished-at="2023-11-01T06:45:16 EDT" duration-ms="7064" status="PASS">
+        <test-method signature="r1dot2_TS005_TC001()[pri:1, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:04:44 EDT" name="r1dot2_TS005_TC001" description="R1.2_TS005_TC001 As an user I should be able to search a product which is present in database." finished-at="2023-11-02T06:04:56 EDT" duration-ms="11780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot2_TS005_TC001 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@185a6e9]" started-at="2023-11-01T06:45:16 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:16 EDT" duration-ms="631" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:04:56 EDT" name="closeBrowser" finished-at="2023-11-02T06:04:57 EDT" duration-ms="858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@185a6e9]" started-at="2023-11-01T06:45:16 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:21 EDT" duration-ms="4200" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:04:57 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:15 EDT" duration-ms="18272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="R1dot2_TS005_TC024(java.lang.String)[pri:2, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@185a6e9]" started-at="2023-11-01T06:45:21 EDT" name="R1dot2_TS005_TC024" description="R1.2_TS005_TC024 Verify user can select a product from featured product list from HomePage" data-provider="productList" finished-at="2023-11-01T06:45:28 EDT" duration-ms="7029" status="PASS">
+        <test-method signature="R1dot2_TS005_TC024(java.lang.String)[pri:2, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:15 EDT" name="R1dot2_TS005_TC024" description="R1.2_TS005_TC024 Verify user can select a product from featured product list from HomePage" data-provider="productList" finished-at="2023-11-02T06:05:23 EDT" duration-ms="7888" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,15 +106,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- R1dot2_TS005_TC024 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@185a6e9]" started-at="2023-11-01T06:45:28 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:28 EDT" duration-ms="628" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:23 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:23 EDT" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@185a6e9]" started-at="2023-11-01T06:45:28 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:34 EDT" duration-ms="5373" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:23 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:29 EDT" duration-ms="6056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="R1dot2_TS005_TC024(java.lang.String)[pri:2, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@185a6e9]" started-at="2023-11-01T06:45:34 EDT" name="R1dot2_TS005_TC024" description="R1.2_TS005_TC024 Verify user can select a product from featured product list from HomePage" data-provider="productList" finished-at="2023-11-01T06:45:40 EDT" duration-ms="6302" status="PASS">
+        <test-method signature="R1dot2_TS005_TC024(java.lang.String)[pri:2, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:29 EDT" name="R1dot2_TS005_TC024" description="R1.2_TS005_TC024 Verify user can select a product from featured product list from HomePage" data-provider="productList" finished-at="2023-11-02T06:05:32 EDT" duration-ms="2581" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -109,15 +125,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- R1dot2_TS005_TC024 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@185a6e9]" started-at="2023-11-01T06:45:40 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:41 EDT" duration-ms="863" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:32 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:32 EDT" duration-ms="221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@185a6e9]" started-at="2023-11-01T06:45:41 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:47 EDT" duration-ms="5650" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:32 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:39 EDT" duration-ms="7089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="R1dot2_TS005_TC024(java.lang.String)[pri:2, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@185a6e9]" started-at="2023-11-01T06:45:47 EDT" name="R1dot2_TS005_TC024" description="R1.2_TS005_TC024 Verify user can select a product from featured product list from HomePage" data-provider="productList" finished-at="2023-11-01T06:45:50 EDT" duration-ms="3200" status="PASS">
+        <test-method signature="R1dot2_TS005_TC024(java.lang.String)[pri:2, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:39 EDT" name="R1dot2_TS005_TC024" description="R1.2_TS005_TC024 Verify user can select a product from featured product list from HomePage" data-provider="productList" finished-at="2023-11-02T06:05:43 EDT" duration-ms="3194" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -128,15 +144,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- R1dot2_TS005_TC024 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@185a6e9]" started-at="2023-11-01T06:45:50 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:51 EDT" duration-ms="856" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:43 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:43 EDT" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@185a6e9]" started-at="2023-11-01T06:45:51 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:56 EDT" duration-ms="5303" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:43 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:47 EDT" duration-ms="3863" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="R1dot2_TS005_TC024(java.lang.String)[pri:2, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@185a6e9]" started-at="2023-11-01T06:45:56 EDT" name="R1dot2_TS005_TC024" description="R1.2_TS005_TC024 Verify user can select a product from featured product list from HomePage" data-provider="productList" finished-at="2023-11-01T06:45:59 EDT" duration-ms="3160" status="PASS">
+        <test-method signature="R1dot2_TS005_TC024(java.lang.String)[pri:2, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:47 EDT" name="R1dot2_TS005_TC024" description="R1.2_TS005_TC024 Verify user can select a product from featured product list from HomePage" data-provider="productList" finished-at="2023-11-02T06:05:52 EDT" duration-ms="5089" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,67 +163,67 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- R1dot2_TS005_TC024 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@185a6e9]" started-at="2023-11-01T06:45:59 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:59 EDT" duration-ms="193" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:52 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:52 EDT" duration-ms="230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality -->
       <class name="openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@1e800aaa]" started-at="2023-11-01T06:44:58 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:08 EDT" duration-ms="9676" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@6f03482]" started-at="2023-11-02T06:04:34 EDT" name="launchBrowser" finished-at="2023-11-02T06:04:49 EDT" duration-ms="15119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS004_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@1e800aaa]" started-at="2023-11-01T06:45:08 EDT" name="r1dot1_TS004_TC001" description="R1.1_TS004_TC001 as a Registered user I should be able to reset my password by using &quot;Forgotten Password&quot; link in &quot;Returning Customer&quot; Login box" finished-at="2023-11-01T06:45:16 EDT" duration-ms="8100" status="PASS">
+        <test-method signature="r1dot1_TS004_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@6f03482]" started-at="2023-11-02T06:04:49 EDT" name="r1dot1_TS004_TC001" description="R1.1_TS004_TC001 as a Registered user I should be able to reset my password by using &quot;Forgotten Password&quot; link in &quot;Returning Customer&quot; Login box" finished-at="2023-11-02T06:04:56 EDT" duration-ms="7024" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS004_TC001 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@1e800aaa]" started-at="2023-11-01T06:45:16 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:17 EDT" duration-ms="855" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@6f03482]" started-at="2023-11-02T06:04:56 EDT" name="closeBrowser" finished-at="2023-11-02T06:04:58 EDT" duration-ms="1477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@1e800aaa]" started-at="2023-11-01T06:45:17 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:24 EDT" duration-ms="7010" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@6f03482]" started-at="2023-11-02T06:04:58 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:07 EDT" duration-ms="9544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS004_TC002()[pri:2, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@1e800aaa]" started-at="2023-11-01T06:45:24 EDT" name="r1dot1_TS004_TC002" description="R1.1_TS004_TC002 as a Registered user I should be able to reset my password by using &quot;Forgotten Password&quot; link in right column" finished-at="2023-11-01T06:45:31 EDT" duration-ms="7198" status="PASS">
+        <test-method signature="r1dot1_TS004_TC002()[pri:2, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@6f03482]" started-at="2023-11-02T06:05:07 EDT" name="r1dot1_TS004_TC002" description="R1.1_TS004_TC002 as a Registered user I should be able to reset my password by using &quot;Forgotten Password&quot; link in right column" finished-at="2023-11-02T06:05:13 EDT" duration-ms="5909" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS004_TC002 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@1e800aaa]" started-at="2023-11-01T06:45:31 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:33 EDT" duration-ms="1515" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@6f03482]" started-at="2023-11-02T06:05:13 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:14 EDT" duration-ms="1012" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality -->
       <class name="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@5bda8e08]" started-at="2023-11-01T06:44:58 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:13 EDT" duration-ms="15255" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:04:34 EDT" name="launchBrowser" finished-at="2023-11-02T06:04:49 EDT" duration-ms="14846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS003_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@5bda8e08]" started-at="2023-11-01T06:45:13 EDT" name="r1dot1_TS003_TC001" description="R1.1_TS003_TC001 Verify Logging out by selecting Logout option from &#039;My Account&#039; drop menu" finished-at="2023-11-01T06:45:21 EDT" duration-ms="7803" status="PASS">
+        <test-method signature="r1dot1_TS003_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:04:49 EDT" name="r1dot1_TS003_TC001" description="R1.1_TS003_TC001 Verify Logging out by selecting Logout option from &#039;My Account&#039; drop menu" finished-at="2023-11-02T06:04:56 EDT" duration-ms="7264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS003_TC001 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@5bda8e08]" started-at="2023-11-01T06:45:21 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:23 EDT" duration-ms="1278" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:04:56 EDT" name="closeBrowser" finished-at="2023-11-02T06:04:58 EDT" duration-ms="1523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@5bda8e08]" started-at="2023-11-01T06:45:23 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:28 EDT" duration-ms="5237" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:04:58 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:04 EDT" duration-ms="6592" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS003_TC002()[pri:2, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@5bda8e08]" started-at="2023-11-01T06:45:28 EDT" name="r1dot1_TS003_TC002" description="R1.1_TS003_TC002 Verify Logging out by selecting Logout option from &#039;Right Column&#039; options" finished-at="2023-11-01T06:45:35 EDT" duration-ms="7711" status="PASS">
+        <test-method signature="r1dot1_TS003_TC002()[pri:2, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:05:04 EDT" name="r1dot1_TS003_TC002" description="R1.1_TS003_TC002 Verify Logging out by selecting Logout option from &#039;Right Column&#039; options" finished-at="2023-11-02T06:05:18 EDT" duration-ms="13816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS003_TC002 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@5bda8e08]" started-at="2023-11-01T06:45:35 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:37 EDT" duration-ms="1976" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:05:18 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:18 EDT" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@5bda8e08]" started-at="2023-11-01T06:45:37 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:44 EDT" duration-ms="6308" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:05:18 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:23 EDT" duration-ms="4193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="r1dot1_TS003_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@5bda8e08]" started-at="2023-11-01T06:45:44 EDT" name="r1dot1_TS003_TC003" description="R1.1_TS003_TC003 Verify the Application session status, after logging and closing the Browser without logging out" finished-at="2023-11-01T06:46:03 EDT" duration-ms="19210" status="SKIP">
+        <test-method retried="true" signature="r1dot1_TS003_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:05:23 EDT" name="r1dot1_TS003_TC003" description="R1.1_TS003_TC003 Verify the Application session status, after logging and closing the Browser without logging out" finished-at="2023-11-02T06:05:45 EDT" duration-ms="22520" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']"}
@@ -216,9 +232,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d99f678ec76bb7f3fa63394faa76909a, findElement {using=xpath, value=//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61945}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61945/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d99f678ec76bb7f3fa63394faa76909a]]>
+Command: [3d77130de2697ba760cd9f64edbda62c, findElement {using=xpath, value=//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51842}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51842/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3d77130de2697ba760cd9f64edbda62c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']"}
@@ -227,9 +243,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d99f678ec76bb7f3fa63394faa76909a, findElement {using=xpath, value=//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61945}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61945/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d99f678ec76bb7f3fa63394faa76909a
+Command: [3d77130de2697ba760cd9f64edbda62c, findElement {using=xpath, value=//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51842}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51842/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3d77130de2697ba760cd9f64edbda62c
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -272,15 +288,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS003_TC003 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@5bda8e08]" started-at="2023-11-01T06:46:03 EDT" name="closeBrowser" finished-at="2023-11-01T06:46:04 EDT" duration-ms="543" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:05:45 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:45 EDT" duration-ms="273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@5bda8e08]" started-at="2023-11-01T06:46:04 EDT" name="launchBrowser" finished-at="2023-11-01T06:46:09 EDT" duration-ms="5598" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:05:45 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:49 EDT" duration-ms="3672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="r1dot1_TS003_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@5bda8e08]" started-at="2023-11-01T06:46:09 EDT" name="r1dot1_TS003_TC003" description="R1.1_TS003_TC003 Verify the Application session status, after logging and closing the Browser without logging out" finished-at="2023-11-01T06:46:27 EDT" duration-ms="18071" status="SKIP">
+        <test-method retried="true" signature="r1dot1_TS003_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:05:49 EDT" name="r1dot1_TS003_TC003" description="R1.1_TS003_TC003 Verify the Application session status, after logging and closing the Browser without logging out" finished-at="2023-11-02T06:06:18 EDT" duration-ms="28749" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']"}
@@ -289,9 +305,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8559558b9101dea35852a29eabd02b82, findElement {using=xpath, value=//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62146}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62146/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8559558b9101dea35852a29eabd02b82]]>
+Command: [277a50f57703591b4eb9a11632a1fc62, findElement {using=xpath, value=//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52061}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52061/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 277a50f57703591b4eb9a11632a1fc62]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']"}
@@ -300,9 +316,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8559558b9101dea35852a29eabd02b82, findElement {using=xpath, value=//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62146}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62146/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8559558b9101dea35852a29eabd02b82
+Command: [277a50f57703591b4eb9a11632a1fc62, findElement {using=xpath, value=//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52061}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52061/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 277a50f57703591b4eb9a11632a1fc62
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -345,15 +361,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS003_TC003 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@5bda8e08]" started-at="2023-11-01T06:46:27 EDT" name="closeBrowser" finished-at="2023-11-01T06:46:27 EDT" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:06:18 EDT" name="closeBrowser" finished-at="2023-11-02T06:06:18 EDT" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@5bda8e08]" started-at="2023-11-01T06:46:27 EDT" name="launchBrowser" finished-at="2023-11-01T06:46:32 EDT" duration-ms="5129" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:06:18 EDT" name="launchBrowser" finished-at="2023-11-02T06:06:25 EDT" duration-ms="6712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS003_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@5bda8e08]" started-at="2023-11-01T06:46:32 EDT" name="r1dot1_TS003_TC003" description="R1.1_TS003_TC003 Verify the Application session status, after logging and closing the Browser without logging out" finished-at="2023-11-01T06:46:52 EDT" duration-ms="19153" status="FAIL">
+        <test-method signature="r1dot1_TS003_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:06:25 EDT" name="r1dot1_TS003_TC003" description="R1.1_TS003_TC003 Verify the Application session status, after logging and closing the Browser without logging out" finished-at="2023-11-02T06:06:46 EDT" duration-ms="21420" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']"}
@@ -362,9 +378,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e0b21fcd0dfb9bbd9b167ff21143a380, findElement {using=xpath, value=//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62261}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62261/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e0b21fcd0dfb9bbd9b167ff21143a380]]>
+Command: [b61d955ff0f0324fcf15b21a6ccd0d58, findElement {using=xpath, value=//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52201/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b61d955ff0f0324fcf15b21a6ccd0d58]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']"}
@@ -373,9 +389,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e0b21fcd0dfb9bbd9b167ff21143a380, findElement {using=xpath, value=//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62261}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62261/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e0b21fcd0dfb9bbd9b167ff21143a380
+Command: [b61d955ff0f0324fcf15b21a6ccd0d58, findElement {using=xpath, value=//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52201/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b61d955ff0f0324fcf15b21a6ccd0d58
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -418,17 +434,17 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS003_TC003 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@5bda8e08]" started-at="2023-11-01T06:46:52 EDT" name="closeBrowser" finished-at="2023-11-01T06:46:52 EDT" duration-ms="187" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:06:47 EDT" name="closeBrowser" finished-at="2023-11-02T06:06:47 EDT" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- openCart.functionalTests.R1dot1_TS003_LogoutFunctionality -->
       <class name="openCart.functionalTests.Dratf">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:44:58 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:08 EDT" duration-ms="9844" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:04:34 EDT" name="launchBrowser" finished-at="2023-11-02T06:04:50 EDT" duration-ms="15413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="draft()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:45:08 EDT" name="draft" description="fail test" finished-at="2023-11-01T06:45:08 EDT" duration-ms="49" status="SKIP">
+        <test-method retried="true" signature="draft()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:04:50 EDT" name="draft" description="fail test 01" finished-at="2023-11-02T06:04:50 EDT" duration-ms="29" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -461,15 +477,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- draft -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:45:08 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:16 EDT" duration-ms="8130" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:04:50 EDT" name="closeBrowser" finished-at="2023-11-02T06:04:53 EDT" duration-ms="3068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:45:16 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:22 EDT" duration-ms="5846" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:04:53 EDT" name="launchBrowser" finished-at="2023-11-02T06:04:59 EDT" duration-ms="5917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="draft()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:45:22 EDT" name="draft" description="fail test" finished-at="2023-11-01T06:45:22 EDT" duration-ms="2" status="SKIP">
+        <test-method retried="true" signature="draft()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:04:59 EDT" name="draft" description="fail test 01" finished-at="2023-11-02T06:04:59 EDT" duration-ms="0" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -502,15 +518,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- draft -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:45:22 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:22 EDT" duration-ms="387" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:04:59 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:04 EDT" duration-ms="4996" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:45:22 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:30 EDT" duration-ms="7168" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:04 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:18 EDT" duration-ms="14629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="draft()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:45:30 EDT" name="draft" description="fail test" finished-at="2023-11-01T06:45:30 EDT" duration-ms="1" status="FAIL">
+        <test-method signature="draft()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:18 EDT" name="draft" description="fail test 01" finished-at="2023-11-02T06:05:18 EDT" duration-ms="2" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -543,15 +559,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- draft -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:45:30 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:32 EDT" duration-ms="2213" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:19 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:19 EDT" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:45:32 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:41 EDT" duration-ms="8773" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:19 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:34 EDT" duration-ms="14901" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="draft1()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:45:41 EDT" name="draft1" description="fail test" finished-at="2023-11-01T06:45:41 EDT" duration-ms="5" status="SKIP">
+        <test-method retried="true" signature="draft1()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:34 EDT" name="draft1" description="fail test 02" finished-at="2023-11-02T06:05:34 EDT" duration-ms="0" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -562,7 +578,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.draft1(Dratf.java:33)
+at openCart.functionalTests.Dratf.draft1(Dratf.java:34)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -584,15 +600,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- draft1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:45:41 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:42 EDT" duration-ms="488" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:34 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:34 EDT" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:45:42 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:48 EDT" duration-ms="5993" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:34 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:41 EDT" duration-ms="6353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="draft1()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:45:48 EDT" name="draft1" description="fail test" finished-at="2023-11-01T06:45:48 EDT" duration-ms="2" status="SKIP">
+        <test-method retried="true" signature="draft1()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:41 EDT" name="draft1" description="fail test 02" finished-at="2023-11-02T06:05:41 EDT" duration-ms="1" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -603,7 +619,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.draft1(Dratf.java:33)
+at openCart.functionalTests.Dratf.draft1(Dratf.java:34)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -625,15 +641,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- draft1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:45:48 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:48 EDT" duration-ms="291" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:41 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:41 EDT" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:45:48 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:55 EDT" duration-ms="6618" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:41 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:47 EDT" duration-ms="6421" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="draft1()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:45:55 EDT" name="draft1" description="fail test" finished-at="2023-11-01T06:45:55 EDT" duration-ms="1" status="FAIL">
+        <test-method signature="draft1()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:47 EDT" name="draft1" description="fail test 02" finished-at="2023-11-02T06:05:47 EDT" duration-ms="2" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -644,7 +660,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.draft1(Dratf.java:33)
+at openCart.functionalTests.Dratf.draft1(Dratf.java:34)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -666,15 +682,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- draft1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:45:55 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:55 EDT" duration-ms="196" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:48 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:48 EDT" duration-ms="266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:45:55 EDT" name="launchBrowser" finished-at="2023-11-01T06:46:02 EDT" duration-ms="7030" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:48 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:55 EDT" duration-ms="7266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="draft2()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:46:02 EDT" name="draft2" description="fail test" finished-at="2023-11-01T06:46:02 EDT" duration-ms="0" status="SKIP">
+        <test-method retried="true" signature="draft2()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:55 EDT" name="draft2" description="fail test 03" finished-at="2023-11-02T06:05:55 EDT" duration-ms="10" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -685,7 +701,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.draft2(Dratf.java:39)
+at openCart.functionalTests.Dratf.draft2(Dratf.java:40)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -707,15 +723,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- draft2 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:46:02 EDT" name="closeBrowser" finished-at="2023-11-01T06:46:02 EDT" duration-ms="176" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:55 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:55 EDT" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:46:02 EDT" name="launchBrowser" finished-at="2023-11-01T06:46:06 EDT" duration-ms="3366" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:55 EDT" name="launchBrowser" finished-at="2023-11-02T06:06:03 EDT" duration-ms="7762" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="draft2()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:46:06 EDT" name="draft2" description="fail test" finished-at="2023-11-01T06:46:06 EDT" duration-ms="1" status="SKIP">
+        <test-method retried="true" signature="draft2()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:03 EDT" name="draft2" description="fail test 03" finished-at="2023-11-02T06:06:03 EDT" duration-ms="1" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -726,7 +742,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.draft2(Dratf.java:39)
+at openCart.functionalTests.Dratf.draft2(Dratf.java:40)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -748,15 +764,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- draft2 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:46:06 EDT" name="closeBrowser" finished-at="2023-11-01T06:46:06 EDT" duration-ms="314" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:03 EDT" name="closeBrowser" finished-at="2023-11-02T06:06:03 EDT" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:46:06 EDT" name="launchBrowser" finished-at="2023-11-01T06:46:11 EDT" duration-ms="5071" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:03 EDT" name="launchBrowser" finished-at="2023-11-02T06:06:07 EDT" duration-ms="3965" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="draft2()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:46:11 EDT" name="draft2" description="fail test" finished-at="2023-11-01T06:46:11 EDT" duration-ms="2" status="FAIL">
+        <test-method signature="draft2()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:07 EDT" name="draft2" description="fail test 03" finished-at="2023-11-02T06:06:07 EDT" duration-ms="3" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -767,7 +783,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.draft2(Dratf.java:39)
+at openCart.functionalTests.Dratf.draft2(Dratf.java:40)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -789,15 +805,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- draft2 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:46:11 EDT" name="closeBrowser" finished-at="2023-11-01T06:46:12 EDT" duration-ms="194" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:11 EDT" name="closeBrowser" finished-at="2023-11-02T06:06:11 EDT" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:46:12 EDT" name="launchBrowser" finished-at="2023-11-01T06:46:17 EDT" duration-ms="5665" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:11 EDT" name="launchBrowser" finished-at="2023-11-02T06:06:17 EDT" duration-ms="6692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="draft3()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:46:17 EDT" name="draft3" description="fail test" finished-at="2023-11-01T06:46:17 EDT" duration-ms="1" status="SKIP">
+        <test-method retried="true" signature="draft3()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:17 EDT" name="draft3" description="fail test 04" finished-at="2023-11-02T06:06:17 EDT" duration-ms="2" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -808,7 +824,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.draft3(Dratf.java:45)
+at openCart.functionalTests.Dratf.draft3(Dratf.java:46)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -830,15 +846,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- draft3 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:46:17 EDT" name="closeBrowser" finished-at="2023-11-01T06:46:17 EDT" duration-ms="185" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:17 EDT" name="closeBrowser" finished-at="2023-11-02T06:06:18 EDT" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:46:17 EDT" name="launchBrowser" finished-at="2023-11-01T06:46:23 EDT" duration-ms="5348" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:18 EDT" name="launchBrowser" finished-at="2023-11-02T06:06:24 EDT" duration-ms="6370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="draft3()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:46:23 EDT" name="draft3" description="fail test" finished-at="2023-11-01T06:46:23 EDT" duration-ms="1" status="SKIP">
+        <test-method retried="true" signature="draft3()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:24 EDT" name="draft3" description="fail test 04" finished-at="2023-11-02T06:06:24 EDT" duration-ms="4" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -849,7 +865,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.draft3(Dratf.java:45)
+at openCart.functionalTests.Dratf.draft3(Dratf.java:46)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -871,15 +887,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- draft3 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:46:23 EDT" name="closeBrowser" finished-at="2023-11-01T06:46:23 EDT" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:24 EDT" name="closeBrowser" finished-at="2023-11-02T06:06:24 EDT" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:46:23 EDT" name="launchBrowser" finished-at="2023-11-01T06:46:29 EDT" duration-ms="5542" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:24 EDT" name="launchBrowser" finished-at="2023-11-02T06:06:33 EDT" duration-ms="8539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="draft3()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:46:29 EDT" name="draft3" description="fail test" finished-at="2023-11-01T06:46:29 EDT" duration-ms="1" status="FAIL">
+        <test-method signature="draft3()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:33 EDT" name="draft3" description="fail test 04" finished-at="2023-11-02T06:06:33 EDT" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -890,7 +906,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.draft3(Dratf.java:45)
+at openCart.functionalTests.Dratf.draft3(Dratf.java:46)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -912,145 +928,145 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- draft3 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@1d296da]" started-at="2023-11-01T06:46:29 EDT" name="closeBrowser" finished-at="2023-11-01T06:46:29 EDT" duration-ms="227" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:33 EDT" name="closeBrowser" finished-at="2023-11-02T06:06:33 EDT" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- openCart.functionalTests.Dratf -->
       <class name="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" started-at="2023-11-01T06:44:58 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:08 EDT" duration-ms="10181" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:04:34 EDT" name="launchBrowser" finished-at="2023-11-02T06:04:50 EDT" duration-ms="15897" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS001_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" started-at="2023-11-01T06:45:08 EDT" name="r1dot1_TS001_TC001" description="R1.1_TS001_TC001 As a user I should be able to Register an Account by providing only the Mandatory fields" finished-at="2023-11-01T06:45:19 EDT" duration-ms="10189" status="PASS">
+        <test-method signature="r1dot1_TS001_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:04:50 EDT" name="r1dot1_TS001_TC001" description="R1.1_TS001_TC001 As a user I should be able to Register an Account by providing only the Mandatory fields" finished-at="2023-11-02T06:05:02 EDT" duration-ms="12046" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS001_TC001 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" started-at="2023-11-01T06:45:19 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:22 EDT" duration-ms="3459" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:02 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:04 EDT" duration-ms="1824" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" started-at="2023-11-01T06:45:22 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:28 EDT" duration-ms="6029" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:04 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:12 EDT" duration-ms="8447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS001_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" started-at="2023-11-01T06:45:28 EDT" name="r1dot1_TS001_TC003" description="R1.1_TS001_TC003 Verify Registering an Account by providing all the fields" finished-at="2023-11-01T06:45:38 EDT" duration-ms="9804" status="PASS">
+        <test-method signature="r1dot1_TS001_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:12 EDT" name="r1dot1_TS001_TC003" description="R1.1_TS001_TC003 Verify Registering an Account by providing all the fields" finished-at="2023-11-02T06:05:21 EDT" duration-ms="8143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS001_TC003 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" started-at="2023-11-01T06:45:38 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:38 EDT" duration-ms="561" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:21 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:21 EDT" duration-ms="500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" started-at="2023-11-01T06:45:38 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:43 EDT" duration-ms="4607" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:21 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:28 EDT" duration-ms="7225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS001_TC004()[pri:4, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" started-at="2023-11-01T06:45:43 EDT" name="r1dot1_TS001_TC004" description="R1.1_TS001_TC004 Verify proper error messages are displayed for the mandatory fields, when you don&#039;t provide any mandatory fields in the &#039;Register Account&#039; page and submit" finished-at="2023-11-01T06:45:47 EDT" duration-ms="4001" status="PASS">
+        <test-method signature="r1dot1_TS001_TC004()[pri:4, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:28 EDT" name="r1dot1_TS001_TC004" description="R1.1_TS001_TC004 Verify proper error messages are displayed for the mandatory fields, when you don&#039;t provide any mandatory fields in the &#039;Register Account&#039; page and submit" finished-at="2023-11-02T06:05:31 EDT" duration-ms="3023" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS001_TC004 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" started-at="2023-11-01T06:45:47 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:48 EDT" duration-ms="541" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:31 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:32 EDT" duration-ms="221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" started-at="2023-11-01T06:45:48 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:54 EDT" duration-ms="6181" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:32 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:38 EDT" duration-ms="6299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS001_TC005()[pri:5, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" started-at="2023-11-01T06:45:54 EDT" name="r1dot1_TS001_TC005" description="R1.1_TS001_TC005 As an user I should be able to register an Account by providing only the Mandatory fields and &#039;Yes&#039; option is selected for Newsletter field" finished-at="2023-11-01T06:45:59 EDT" duration-ms="5387" status="PASS">
+        <test-method signature="r1dot1_TS001_TC005()[pri:5, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:38 EDT" name="r1dot1_TS001_TC005" description="R1.1_TS001_TC005 As an user I should be able to register an Account by providing only the Mandatory fields and &#039;Yes&#039; option is selected for Newsletter field" finished-at="2023-11-02T06:05:43 EDT" duration-ms="5445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS001_TC005 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" started-at="2023-11-01T06:45:59 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:59 EDT" duration-ms="261" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:43 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:44 EDT" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" started-at="2023-11-01T06:45:59 EDT" name="launchBrowser" finished-at="2023-11-01T06:46:05 EDT" duration-ms="5467" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:44 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:50 EDT" duration-ms="6614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS001_TC006()[pri:6, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" started-at="2023-11-01T06:46:05 EDT" name="r1dot1_TS001_TC006" description="R1.1_TS001_TC006 As an user when I navigate to the registration page Newsletter field &#039;No&#039; option should be pre-selected" finished-at="2023-11-01T06:46:07 EDT" duration-ms="1702" status="PASS">
+        <test-method signature="r1dot1_TS001_TC006()[pri:6, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:50 EDT" name="r1dot1_TS001_TC006" description="R1.1_TS001_TC006 As an user when I navigate to the registration page Newsletter field &#039;No&#039; option should be pre-selected" finished-at="2023-11-02T06:05:52 EDT" duration-ms="1622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS001_TC006 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" started-at="2023-11-01T06:46:07 EDT" name="closeBrowser" finished-at="2023-11-01T06:46:07 EDT" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:52 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:52 EDT" duration-ms="221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" started-at="2023-11-01T06:46:07 EDT" name="launchBrowser" finished-at="2023-11-01T06:46:12 EDT" duration-ms="5613" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:52 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:57 EDT" duration-ms="5272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS001_TC029()[pri:7, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" started-at="2023-11-01T06:46:12 EDT" name="r1dot1_TS001_TC029" description="R1.1_TS001_TC029 As an user when I navigate to the registration page NEWSLETTER subscribe &quot;Yes&quot; checkBox shouldn’t be pre-selected." finished-at="2023-11-01T06:46:14 EDT" duration-ms="1991" status="PASS">
+        <test-method signature="r1dot1_TS001_TC029()[pri:7, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:57 EDT" name="r1dot1_TS001_TC029" description="R1.1_TS001_TC029 As an user when I navigate to the registration page NEWSLETTER subscribe &quot;Yes&quot; checkBox shouldn’t be pre-selected." finished-at="2023-11-02T06:06:02 EDT" duration-ms="4873" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS001_TC029 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" started-at="2023-11-01T06:46:14 EDT" name="closeBrowser" finished-at="2023-11-01T06:46:15 EDT" duration-ms="184" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:06:02 EDT" name="closeBrowser" finished-at="2023-11-02T06:06:02 EDT" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" started-at="2023-11-01T06:46:15 EDT" name="launchBrowser" finished-at="2023-11-01T06:46:20 EDT" duration-ms="5333" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:06:02 EDT" name="launchBrowser" finished-at="2023-11-02T06:06:09 EDT" duration-ms="6221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS001_TC028()[pri:28, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" started-at="2023-11-01T06:46:20 EDT" name="r1dot1_TS001_TC028" description="R1.1_TS001_TC028 Verify the application throws proper error message when user click continue button without selecting privacy and policy check box." finished-at="2023-11-01T06:46:23 EDT" duration-ms="2891" status="PASS">
+        <test-method signature="r1dot1_TS001_TC028()[pri:28, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:06:09 EDT" name="r1dot1_TS001_TC028" description="R1.1_TS001_TC028 Verify the application throws proper error message when user click continue button without selecting privacy and policy check box." finished-at="2023-11-02T06:06:12 EDT" duration-ms="3919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS001_TC028 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@233795b6]" started-at="2023-11-01T06:46:23 EDT" name="closeBrowser" finished-at="2023-11-01T06:46:23 EDT" duration-ms="220" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:06:12 EDT" name="closeBrowser" finished-at="2023-11-02T06:06:13 EDT" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- openCart.functionalTests.R1dot1_TS001_RegisterFunctionality -->
       <class name="openCart.functionalTests.R1dot1_TS002_LoginFunctionality">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@3eb738bb]" started-at="2023-11-01T06:44:58 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:11 EDT" duration-ms="12701" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" started-at="2023-11-02T06:04:34 EDT" name="launchBrowser" finished-at="2023-11-02T06:04:49 EDT" duration-ms="14484" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS002_TC001()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@3eb738bb]" started-at="2023-11-01T06:45:11 EDT" name="r1dot1_TS002_TC001" description="R1.1_TS002_TC001 Verify logging into the Application using valid credentials" finished-at="2023-11-01T06:45:15 EDT" duration-ms="4151" status="PASS">
+        <test-method signature="r1dot1_TS002_TC001()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" started-at="2023-11-02T06:04:49 EDT" name="r1dot1_TS002_TC001" description="R1.1_TS002_TC001 Verify logging into the Application using valid credentials" finished-at="2023-11-02T06:04:55 EDT" duration-ms="5932" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS002_TC001 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@3eb738bb]" started-at="2023-11-01T06:45:15 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:17 EDT" duration-ms="1969" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" started-at="2023-11-02T06:04:55 EDT" name="closeBrowser" finished-at="2023-11-02T06:04:55 EDT" duration-ms="563" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@3eb738bb]" started-at="2023-11-01T06:45:17 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:25 EDT" duration-ms="7997" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" started-at="2023-11-02T06:04:55 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:04 EDT" duration-ms="8747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS002_TC002()[pri:1, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@3eb738bb]" started-at="2023-11-01T06:45:25 EDT" name="r1dot1_TS002_TC002" description="R1.1_TS002_TC002 Verify logging into the Application using invalid credentials (i.e. Invalid email address and Invalid Password)" finished-at="2023-11-01T06:45:30 EDT" duration-ms="4907" status="PASS">
+        <test-method signature="r1dot1_TS002_TC002()[pri:1, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" started-at="2023-11-02T06:05:04 EDT" name="r1dot1_TS002_TC002" description="R1.1_TS002_TC002 Verify logging into the Application using invalid credentials (i.e. Invalid email address and Invalid Password)" finished-at="2023-11-02T06:05:10 EDT" duration-ms="6066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS002_TC002 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@3eb738bb]" started-at="2023-11-01T06:45:30 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:31 EDT" duration-ms="1274" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" started-at="2023-11-02T06:05:10 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:10 EDT" duration-ms="447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@3eb738bb]" started-at="2023-11-01T06:45:31 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:38 EDT" duration-ms="6785" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" started-at="2023-11-02T06:05:10 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:19 EDT" duration-ms="8061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS002_TC003()[pri:1, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@3eb738bb]" started-at="2023-11-01T06:45:38 EDT" name="r1dot1_TS002_TC003" description="R1.1_TS002_TC003 Verify logging into the Application using invalid email address and valid Password" finished-at="2023-11-01T06:45:41 EDT" duration-ms="3069" status="PASS">
+        <test-method signature="r1dot1_TS002_TC003()[pri:1, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" started-at="2023-11-02T06:05:19 EDT" name="r1dot1_TS002_TC003" description="R1.1_TS002_TC003 Verify logging into the Application using invalid email address and valid Password" finished-at="2023-11-02T06:05:22 EDT" duration-ms="3097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- r1dot1_TS002_TC003 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@3eb738bb]" started-at="2023-11-01T06:45:41 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:42 EDT" duration-ms="522" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" started-at="2023-11-02T06:05:22 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:22 EDT" duration-ms="648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- openCart.functionalTests.R1dot1_TS002_LoginFunctionality -->
       <class name="openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality@9d5509a]" started-at="2023-11-01T06:44:58 EDT" name="launchBrowser" finished-at="2023-11-01T06:45:11 EDT" duration-ms="12628" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality@3cd3e762]" started-at="2023-11-02T06:04:34 EDT" name="launchBrowser" finished-at="2023-11-02T06:04:44 EDT" duration-ms="10212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="R1dot3_TS012_TC001()[pri:0, instance:openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality@9d5509a]" started-at="2023-11-01T06:45:11 EDT" name="R1dot3_TS012_TC001" description="R1.3_TS012_TC001 As a user I shouldn&#039;t be able to  navigate to Checkout page when there is no product in the Shopping Cart" finished-at="2023-11-01T06:45:12 EDT" duration-ms="1069" status="PASS">
+        <test-method signature="R1dot3_TS012_TC001()[pri:0, instance:openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality@3cd3e762]" started-at="2023-11-02T06:04:44 EDT" name="R1dot3_TS012_TC001" description="R1.3_TS012_TC001 As a user I shouldn&#039;t be able to  navigate to Checkout page when there is no product in the Shopping Cart" finished-at="2023-11-02T06:04:49 EDT" duration-ms="4772" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- R1dot3_TS012_TC001 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality@9d5509a]" started-at="2023-11-01T06:45:12 EDT" name="closeBrowser" finished-at="2023-11-01T06:45:16 EDT" duration-ms="4536" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality@3cd3e762]" started-at="2023-11-02T06:04:49 EDT" name="closeBrowser" finished-at="2023-11-02T06:04:54 EDT" duration-ms="4345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

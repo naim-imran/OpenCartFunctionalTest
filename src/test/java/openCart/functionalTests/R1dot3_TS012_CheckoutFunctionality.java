@@ -16,6 +16,7 @@ public class R1dot3_TS012_CheckoutFunctionality extends InitialComponents {
 	@BeforeMethod
 	public synchronized void launchBrowser() {
 		homePage = launchApplicationHomePage();
+		
 	}
 
 	@AfterMethod

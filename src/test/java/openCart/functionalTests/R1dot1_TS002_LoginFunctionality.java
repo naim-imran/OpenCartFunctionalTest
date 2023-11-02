@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import base.InitialComponents;
+import base.Reuseables;
 import pageObjectsfactory.HomePageObjects;
 import pageObjectsfactory.LoginPage;
 import pageObjectsfactory.MyAccountPage;

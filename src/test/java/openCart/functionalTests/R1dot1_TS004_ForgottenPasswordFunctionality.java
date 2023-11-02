@@ -16,9 +16,8 @@ public class R1dot1_TS004_ForgottenPasswordFunctionality extends InitialComponen
 	
 	private HomePageObjects homePage;
 
-
 	@BeforeMethod
-	public void launchBrowser() {
+	public synchronized void launchBrowser() {
 		homePage = launchApplicationHomePage();
 	}
 
@@ -45,7 +44,6 @@ public class R1dot1_TS004_ForgottenPasswordFunctionality extends InitialComponen
 	// jira link: https://naayeem.atlassian.net/browse/TN-54
 	@Test(priority = 2, groups = {SMOKE,POSSITIVE}, description = "R1.1_TS004_TC002 as a Registered user I should be able to reset my password by using \"Forgotten Password\" link in right column")
 	public void r1dot1_TS004_TC002() {
-		HomePageObjects homePage = launchApplicationHomePage();
 		homePage.click_MyAccountDropLisButton();
 		LoginPage loginPage = homePage.click_LoginButton();
 		Assert.assertEquals(loginPage.getHomePageTitle(), "Account Login");
