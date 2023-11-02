@@ -9,14 +9,14 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import base.InitialComponents;
+import base.InitialComponentsAndCommonElements;
 import base.Reuseables;
 import pageObjectsfactory.AccountCreationSuccessPage;
 import pageObjectsfactory.HomePageObjects;
 import pageObjectsfactory.MyAccountPage;
 import pageObjectsfactory.RegistrationPage;
 
-public class R1dot1_TS001_RegisterFunctionality extends InitialComponents {
+public class R1dot1_TS001_RegisterFunctionality extends InitialComponentsAndCommonElements {
 	
 	private HomePageObjects homePage;
 	

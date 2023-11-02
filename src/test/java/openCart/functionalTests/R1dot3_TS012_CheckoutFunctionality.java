@@ -5,11 +5,11 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import base.InitialComponents;
+import base.InitialComponentsAndCommonElements;
 import pageObjectsfactory.HomePageObjects;
 import pageObjectsfactory.ShoppingCartPage;
 
-public class R1dot3_TS012_CheckoutFunctionality extends InitialComponents {
+public class R1dot3_TS012_CheckoutFunctionality extends InitialComponentsAndCommonElements {
 	
 	private HomePageObjects homePage;
 

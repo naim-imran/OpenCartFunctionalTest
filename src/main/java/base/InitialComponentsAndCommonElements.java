@@ -12,7 +12,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 import pageObjectsfactory.HomePageObjects;
 
-public class InitialComponents extends Reuseables{
+public class InitialComponentsAndCommonElements extends Reuseables{
 	
 
 	public WebDriver driver;// driver has to be public because we have to get it through reflection API in

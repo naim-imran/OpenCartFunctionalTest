@@ -5,10 +5,10 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import base.InitialComponents;
+import base.InitialComponentsAndCommonElements;
 import pageObjectsfactory.HomePageObjects;
 
-public class Dratf extends InitialComponents {
+public class Dratf extends InitialComponentsAndCommonElements {
 	private HomePageObjects homePage;
 	
 
@@ -23,26 +23,26 @@ public class Dratf extends InitialComponents {
 	
 	
 	@Test(description = "fail test 01")
-	public void draft() {
+	public void R1Dot1_TS001_draft1() {
 		Assert.assertTrue(false);
 		homePage.getHomePageTitle();
 
 	}
 	
 	@Test(description = "fail test 02")
-	public void draft1() {
+	public void R1Dot1_TS001_draft2() {
 		Assert.assertTrue(false);
 
 	}
 	
 	@Test(description = "fail test 03")
-	public void draft2() {
+	public void R1Dot1_TS001_draft3() {
 		Assert.assertTrue(false);
 
 	}
 	
 	@Test(description = "fail test 04")
-	public void draft3() {
+	public void R1Dot1_TS001_draft4() {
 		Assert.assertTrue(false);
 
 	}

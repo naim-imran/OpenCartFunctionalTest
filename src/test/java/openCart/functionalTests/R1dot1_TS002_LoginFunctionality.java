@@ -7,13 +7,13 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import base.InitialComponents;
+import base.InitialComponentsAndCommonElements;
 import base.Reuseables;
 import pageObjectsfactory.HomePageObjects;
 import pageObjectsfactory.LoginPage;
 import pageObjectsfactory.MyAccountPage;
 
-public class R1dot1_TS002_LoginFunctionality extends InitialComponents {
+public class R1dot1_TS002_LoginFunctionality extends InitialComponentsAndCommonElements {
 
 	private HomePageObjects homePage;
 

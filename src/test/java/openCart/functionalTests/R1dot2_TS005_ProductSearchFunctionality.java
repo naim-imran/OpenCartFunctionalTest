@@ -6,14 +6,14 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import base.InitialComponents;
+import base.InitialComponentsAndCommonElements;
 import pageObjectsfactory.HomePageObjects;
 import pageObjectsfactory.ProductDetailsPage;
 import pageObjectsfactory.SearchResultPage;
 
 
 
-public class R1dot2_TS005_ProductSearchFunctionality extends InitialComponents {
+public class R1dot2_TS005_ProductSearchFunctionality extends InitialComponentsAndCommonElements {
 	
 	private HomePageObjects homePage;
 

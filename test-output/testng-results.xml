@@ -1,450 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="10" ignored="0" total="37" passed="22" failed="5" skipped="0">
+<testng-results ignored="0" total="4" passed="0" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-02T06:04:34 EDT" name="Suite" finished-at="2023-11-02T06:06:47 EDT" duration-ms="133190">
+  <suite started-at="2023-11-02T06:26:01 EDT" name="Default suite" finished-at="2023-11-02T06:26:34 EDT" duration-ms="32156">
     <groups>
-      <group name="negative">
-        <method signature="R1dot3_TS012_CheckoutFunctionality.R1dot3_TS012_TC001()[pri:0, instance:openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality@3cd3e762]" name="R1dot3_TS012_TC001" class="openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality"/>
-        <method signature="R1dot1_TS002_LoginFunctionality.r1dot1_TS002_TC002()[pri:1, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" name="r1dot1_TS002_TC002" class="openCart.functionalTests.R1dot1_TS002_LoginFunctionality"/>
-        <method signature="R1dot1_TS002_LoginFunctionality.r1dot1_TS002_TC003()[pri:1, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" name="r1dot1_TS002_TC003" class="openCart.functionalTests.R1dot1_TS002_LoginFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC004()[pri:4, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC004" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC006()[pri:6, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC006" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC029()[pri:7, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC029" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC028()[pri:28, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC028" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-      </group> <!-- negative -->
-      <group name="possitive">
-        <method signature="R1dot1_TS002_LoginFunctionality.r1dot1_TS002_TC001()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" name="r1dot1_TS002_TC001" class="openCart.functionalTests.R1dot1_TS002_LoginFunctionality"/>
-        <method signature="R1dot3_TS008_AddToCartFunctionality.R1dot3_TS008_TC003()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@3b0090a4]" name="R1dot3_TS008_TC003" class="openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC001" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" name="r1dot1_TS003_TC001" class="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality"/>
-        <method signature="R1dot1_TS004_ForgottenPasswordFunctionality.r1dot1_TS004_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@6f03482]" name="r1dot1_TS004_TC001" class="openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality"/>
-        <method signature="R1dot2_TS005_ProductSearchFunctionality.r1dot2_TS005_TC001()[pri:1, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" name="r1dot2_TS005_TC001" class="openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality"/>
-        <method signature="R1dot2_TS006_ProductCompareFunctionality.r1dot2_TS006_TC001()[pri:1, instance:openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality@179ece50]" name="r1dot2_TS006_TC001" class="openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality"/>
-        <method signature="R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC002()[pri:2, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" name="r1dot1_TS003_TC002" class="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality"/>
-        <method signature="R1dot1_TS004_ForgottenPasswordFunctionality.r1dot1_TS004_TC002()[pri:2, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@6f03482]" name="r1dot1_TS004_TC002" class="openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality"/>
-        <method signature="R1dot2_TS005_ProductSearchFunctionality.R1dot2_TS005_TC024(java.lang.String)[pri:2, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" name="R1dot2_TS005_TC024" class="openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC003" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" name="r1dot1_TS003_TC003" class="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC005()[pri:5, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC005" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-      </group> <!-- possitive -->
-      <group name="smoke">
-        <method signature="R1dot1_TS002_LoginFunctionality.r1dot1_TS002_TC001()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" name="r1dot1_TS002_TC001" class="openCart.functionalTests.R1dot1_TS002_LoginFunctionality"/>
-        <method signature="R1dot3_TS008_AddToCartFunctionality.R1dot3_TS008_TC003()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@3b0090a4]" name="R1dot3_TS008_TC003" class="openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC001" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS002_LoginFunctionality.r1dot1_TS002_TC002()[pri:1, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" name="r1dot1_TS002_TC002" class="openCart.functionalTests.R1dot1_TS002_LoginFunctionality"/>
-        <method signature="R1dot1_TS002_LoginFunctionality.r1dot1_TS002_TC003()[pri:1, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" name="r1dot1_TS002_TC003" class="openCart.functionalTests.R1dot1_TS002_LoginFunctionality"/>
-        <method signature="R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" name="r1dot1_TS003_TC001" class="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality"/>
-        <method signature="R1dot1_TS004_ForgottenPasswordFunctionality.r1dot1_TS004_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@6f03482]" name="r1dot1_TS004_TC001" class="openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality"/>
-        <method signature="R1dot2_TS005_ProductSearchFunctionality.r1dot2_TS005_TC001()[pri:1, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" name="r1dot2_TS005_TC001" class="openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality"/>
-        <method signature="R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC002()[pri:2, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" name="r1dot1_TS003_TC002" class="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality"/>
-        <method signature="R1dot1_TS004_ForgottenPasswordFunctionality.r1dot1_TS004_TC002()[pri:2, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@6f03482]" name="r1dot1_TS004_TC002" class="openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality"/>
-        <method signature="R1dot2_TS005_ProductSearchFunctionality.R1dot2_TS005_TC024(java.lang.String)[pri:2, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" name="R1dot2_TS005_TC024" class="openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC003" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" name="r1dot1_TS003_TC003" class="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC004()[pri:4, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC004" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC005()[pri:5, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC005" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC006()[pri:6, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC006" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC029()[pri:7, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC029" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-        <method signature="R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC028()[pri:28, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" name="r1dot1_TS001_TC028" class="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-11-02T06:04:34 EDT" name="Draft_Test" finished-at="2023-11-02T06:06:47 EDT" duration-ms="133190">
-      <class name="openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@3b0090a4]" started-at="2023-11-02T06:04:34 EDT" name="launchBrowser" finished-at="2023-11-02T06:04:51 EDT" duration-ms="16391" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="R1dot3_TS008_TC003()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@3b0090a4]" started-at="2023-11-02T06:04:51 EDT" name="R1dot3_TS008_TC003" description="As an user I can  add  product to Cart from Search Results Page" finished-at="2023-11-02T06:04:58 EDT" duration-ms="7619" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- R1dot3_TS008_TC003 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@3b0090a4]" started-at="2023-11-02T06:04:58 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:04 EDT" duration-ms="5343" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality -->
-      <class name="openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality@179ece50]" started-at="2023-11-02T06:04:34 EDT" name="launchBrowser" finished-at="2023-11-02T06:04:49 EDT" duration-ms="15059" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot2_TS006_TC001()[pri:1, instance:openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality@179ece50]" started-at="2023-11-02T06:04:49 EDT" name="r1dot2_TS006_TC001" description="R1.2_TS006_TC001 As an user I should be able to select products for comparison." finished-at="2023-11-02T06:05:14 EDT" duration-ms="24807" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- r1dot2_TS006_TC001 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality@179ece50]" started-at="2023-11-02T06:05:14 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:15 EDT" duration-ms="565" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality -->
-      <class name="openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:04:34 EDT" name="launchBrowser" finished-at="2023-11-02T06:04:44 EDT" duration-ms="10210" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot2_TS005_TC001()[pri:1, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:04:44 EDT" name="r1dot2_TS005_TC001" description="R1.2_TS005_TC001 As an user I should be able to search a product which is present in database." finished-at="2023-11-02T06:04:56 EDT" duration-ms="11780" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- r1dot2_TS005_TC001 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:04:56 EDT" name="closeBrowser" finished-at="2023-11-02T06:04:57 EDT" duration-ms="858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:04:57 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:15 EDT" duration-ms="18272" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="R1dot2_TS005_TC024(java.lang.String)[pri:2, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:15 EDT" name="R1dot2_TS005_TC024" description="R1.2_TS005_TC024 Verify user can select a product from featured product list from HomePage" data-provider="productList" finished-at="2023-11-02T06:05:23 EDT" duration-ms="7888" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[MacBook]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- R1dot2_TS005_TC024 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:23 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:23 EDT" duration-ms="195" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:23 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:29 EDT" duration-ms="6056" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="R1dot2_TS005_TC024(java.lang.String)[pri:2, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:29 EDT" name="R1dot2_TS005_TC024" description="R1.2_TS005_TC024 Verify user can select a product from featured product list from HomePage" data-provider="productList" finished-at="2023-11-02T06:05:32 EDT" duration-ms="2581" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[iPhone]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- R1dot2_TS005_TC024 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:32 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:32 EDT" duration-ms="221" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:32 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:39 EDT" duration-ms="7089" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="R1dot2_TS005_TC024(java.lang.String)[pri:2, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:39 EDT" name="R1dot2_TS005_TC024" description="R1.2_TS005_TC024 Verify user can select a product from featured product list from HomePage" data-provider="productList" finished-at="2023-11-02T06:05:43 EDT" duration-ms="3194" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Apple Cinema 30"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- R1dot2_TS005_TC024 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:43 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:43 EDT" duration-ms="265" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:43 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:47 EDT" duration-ms="3863" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="R1dot2_TS005_TC024(java.lang.String)[pri:2, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:47 EDT" name="R1dot2_TS005_TC024" description="R1.2_TS005_TC024 Verify user can select a product from featured product list from HomePage" data-provider="productList" finished-at="2023-11-02T06:05:52 EDT" duration-ms="5089" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Canon EOS 5D]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- R1dot2_TS005_TC024 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@9d5509a]" started-at="2023-11-02T06:05:52 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:52 EDT" duration-ms="230" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality -->
-      <class name="openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@6f03482]" started-at="2023-11-02T06:04:34 EDT" name="launchBrowser" finished-at="2023-11-02T06:04:49 EDT" duration-ms="15119" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS004_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@6f03482]" started-at="2023-11-02T06:04:49 EDT" name="r1dot1_TS004_TC001" description="R1.1_TS004_TC001 as a Registered user I should be able to reset my password by using &quot;Forgotten Password&quot; link in &quot;Returning Customer&quot; Login box" finished-at="2023-11-02T06:04:56 EDT" duration-ms="7024" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- r1dot1_TS004_TC001 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@6f03482]" started-at="2023-11-02T06:04:56 EDT" name="closeBrowser" finished-at="2023-11-02T06:04:58 EDT" duration-ms="1477" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@6f03482]" started-at="2023-11-02T06:04:58 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:07 EDT" duration-ms="9544" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS004_TC002()[pri:2, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@6f03482]" started-at="2023-11-02T06:05:07 EDT" name="r1dot1_TS004_TC002" description="R1.1_TS004_TC002 as a Registered user I should be able to reset my password by using &quot;Forgotten Password&quot; link in right column" finished-at="2023-11-02T06:05:13 EDT" duration-ms="5909" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- r1dot1_TS004_TC002 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@6f03482]" started-at="2023-11-02T06:05:13 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:14 EDT" duration-ms="1012" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality -->
-      <class name="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:04:34 EDT" name="launchBrowser" finished-at="2023-11-02T06:04:49 EDT" duration-ms="14846" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS003_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:04:49 EDT" name="r1dot1_TS003_TC001" description="R1.1_TS003_TC001 Verify Logging out by selecting Logout option from &#039;My Account&#039; drop menu" finished-at="2023-11-02T06:04:56 EDT" duration-ms="7264" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- r1dot1_TS003_TC001 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:04:56 EDT" name="closeBrowser" finished-at="2023-11-02T06:04:58 EDT" duration-ms="1523" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:04:58 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:04 EDT" duration-ms="6592" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS003_TC002()[pri:2, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:05:04 EDT" name="r1dot1_TS003_TC002" description="R1.1_TS003_TC002 Verify Logging out by selecting Logout option from &#039;Right Column&#039; options" finished-at="2023-11-02T06:05:18 EDT" duration-ms="13816" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- r1dot1_TS003_TC002 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:05:18 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:18 EDT" duration-ms="244" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:05:18 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:23 EDT" duration-ms="4193" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="r1dot1_TS003_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:05:23 EDT" name="r1dot1_TS003_TC003" description="R1.1_TS003_TC003 Verify the Application session status, after logging and closing the Browser without logging out" finished-at="2023-11-02T06:05:45 EDT" duration-ms="22520" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']"}
-  (Session info: chrome=118.0.5993.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3d77130de2697ba760cd9f64edbda62c, findElement {using=xpath, value=//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51842}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51842/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d77130de2697ba760cd9f64edbda62c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']"}
-  (Session info: chrome=118.0.5993.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3d77130de2697ba760cd9f64edbda62c, findElement {using=xpath, value=//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51842}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51842/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d77130de2697ba760cd9f64edbda62c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-at pageObjectsfactory.CommonElements.click_MyAccount(CommonElements.java:88)
-at openCart.functionalTests.R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC003(R1dot1_TS003_LogoutFunctionality.java:73)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- r1dot1_TS003_TC003 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:05:45 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:45 EDT" duration-ms="273" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:05:45 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:49 EDT" duration-ms="3672" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="r1dot1_TS003_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:05:49 EDT" name="r1dot1_TS003_TC003" description="R1.1_TS003_TC003 Verify the Application session status, after logging and closing the Browser without logging out" finished-at="2023-11-02T06:06:18 EDT" duration-ms="28749" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']"}
-  (Session info: chrome=118.0.5993.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [277a50f57703591b4eb9a11632a1fc62, findElement {using=xpath, value=//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52061}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52061/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 277a50f57703591b4eb9a11632a1fc62]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']"}
-  (Session info: chrome=118.0.5993.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [277a50f57703591b4eb9a11632a1fc62, findElement {using=xpath, value=//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52061}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52061/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 277a50f57703591b4eb9a11632a1fc62
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-at pageObjectsfactory.CommonElements.click_MyAccount(CommonElements.java:88)
-at openCart.functionalTests.R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC003(R1dot1_TS003_LogoutFunctionality.java:73)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- r1dot1_TS003_TC003 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:06:18 EDT" name="closeBrowser" finished-at="2023-11-02T06:06:18 EDT" duration-ms="237" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:06:18 EDT" name="launchBrowser" finished-at="2023-11-02T06:06:25 EDT" duration-ms="6712" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS003_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:06:25 EDT" name="r1dot1_TS003_TC003" description="R1.1_TS003_TC003 Verify the Application session status, after logging and closing the Browser without logging out" finished-at="2023-11-02T06:06:46 EDT" duration-ms="21420" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']"}
-  (Session info: chrome=118.0.5993.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b61d955ff0f0324fcf15b21a6ccd0d58, findElement {using=xpath, value=//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52201/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b61d955ff0f0324fcf15b21a6ccd0d58]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']"}
-  (Session info: chrome=118.0.5993.118)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b61d955ff0f0324fcf15b21a6ccd0d58, findElement {using=xpath, value=//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52201/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b61d955ff0f0324fcf15b21a6ccd0d58
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-at pageObjectsfactory.CommonElements.click_MyAccount(CommonElements.java:88)
-at openCart.functionalTests.R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC003(R1dot1_TS003_LogoutFunctionality.java:73)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- r1dot1_TS003_TC003 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@185a6e9]" started-at="2023-11-02T06:06:47 EDT" name="closeBrowser" finished-at="2023-11-02T06:06:47 EDT" duration-ms="194" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- openCart.functionalTests.R1dot1_TS003_LogoutFunctionality -->
+    <test started-at="2023-11-02T06:26:01 EDT" name="Default test" finished-at="2023-11-02T06:26:34 EDT" duration-ms="32156">
       <class name="openCart.functionalTests.Dratf">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:04:34 EDT" name="launchBrowser" finished-at="2023-11-02T06:04:50 EDT" duration-ms="15413" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:01 EDT" name="launchBrowser" finished-at="2023-11-02T06:26:12 EDT" duration-ms="10542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="draft()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:04:50 EDT" name="draft" description="fail test 01" finished-at="2023-11-02T06:04:50 EDT" duration-ms="29" status="SKIP">
+        <test-method signature="R1Dot1_TS001_draft1()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:12 EDT" name="R1Dot1_TS001_draft1" description="fail test 01" finished-at="2023-11-02T06:26:12 EDT" duration-ms="18" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -455,7 +22,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.draft(Dratf.java:27)
+at openCart.functionalTests.Dratf.R1Dot1_TS001_draft1(Dratf.java:27)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -468,24 +35,37 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- draft -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:04:50 EDT" name="closeBrowser" finished-at="2023-11-02T06:04:53 EDT" duration-ms="3068" status="PASS">
+        </test-method> <!-- R1Dot1_TS001_draft1 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:12 EDT" name="closeBrowser" finished-at="2023-11-02T06:26:12 EDT" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:04:53 EDT" name="launchBrowser" finished-at="2023-11-02T06:04:59 EDT" duration-ms="5917" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:12 EDT" name="launchBrowser" finished-at="2023-11-02T06:26:20 EDT" duration-ms="7670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="draft()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:04:59 EDT" name="draft" description="fail test 01" finished-at="2023-11-02T06:04:59 EDT" duration-ms="0" status="SKIP">
+        <test-method signature="R1Dot1_TS001_draft2()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:20 EDT" name="R1Dot1_TS001_draft2" description="fail test 02" finished-at="2023-11-02T06:26:20 EDT" duration-ms="2" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -496,89 +76,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.draft(Dratf.java:27)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- draft -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:04:59 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:04 EDT" duration-ms="4996" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:04 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:18 EDT" duration-ms="14629" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="draft()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:18 EDT" name="draft" description="fail test 01" finished-at="2023-11-02T06:05:18 EDT" duration-ms="2" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.draft(Dratf.java:27)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- draft -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:19 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:19 EDT" duration-ms="256" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:19 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:34 EDT" duration-ms="14901" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="draft1()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:34 EDT" name="draft1" description="fail test 02" finished-at="2023-11-02T06:05:34 EDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.draft1(Dratf.java:34)
+at openCart.functionalTests.Dratf.R1Dot1_TS001_draft2(Dratf.java:34)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -591,24 +89,37 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- draft1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:34 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:34 EDT" duration-ms="343" status="PASS">
+        </test-method> <!-- R1Dot1_TS001_draft2 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:20 EDT" name="closeBrowser" finished-at="2023-11-02T06:26:20 EDT" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:34 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:41 EDT" duration-ms="6353" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:20 EDT" name="launchBrowser" finished-at="2023-11-02T06:26:26 EDT" duration-ms="6254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="draft1()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:41 EDT" name="draft1" description="fail test 02" finished-at="2023-11-02T06:05:41 EDT" duration-ms="1" status="SKIP">
+        <test-method signature="R1Dot1_TS001_draft3()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:26 EDT" name="R1Dot1_TS001_draft3" description="fail test 03" finished-at="2023-11-02T06:26:26 EDT" duration-ms="0" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -619,89 +130,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.draft1(Dratf.java:34)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- draft1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:41 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:41 EDT" duration-ms="148" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:41 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:47 EDT" duration-ms="6421" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="draft1()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:47 EDT" name="draft1" description="fail test 02" finished-at="2023-11-02T06:05:47 EDT" duration-ms="2" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.draft1(Dratf.java:34)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- draft1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:48 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:48 EDT" duration-ms="266" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:48 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:55 EDT" duration-ms="7266" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="draft2()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:55 EDT" name="draft2" description="fail test 03" finished-at="2023-11-02T06:05:55 EDT" duration-ms="10" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.draft2(Dratf.java:40)
+at openCart.functionalTests.Dratf.R1Dot1_TS001_draft3(Dratf.java:40)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -714,24 +143,37 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- draft2 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:55 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:55 EDT" duration-ms="169" status="PASS">
+        </test-method> <!-- R1Dot1_TS001_draft3 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:26 EDT" name="closeBrowser" finished-at="2023-11-02T06:26:26 EDT" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:05:55 EDT" name="launchBrowser" finished-at="2023-11-02T06:06:03 EDT" duration-ms="7762" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:26 EDT" name="launchBrowser" finished-at="2023-11-02T06:26:33 EDT" duration-ms="6821" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="draft2()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:03 EDT" name="draft2" description="fail test 03" finished-at="2023-11-02T06:06:03 EDT" duration-ms="1" status="SKIP">
+        <test-method signature="R1Dot1_TS001_draft4()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:33 EDT" name="R1Dot1_TS001_draft4" description="fail test 04" finished-at="2023-11-02T06:26:33 EDT" duration-ms="2" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -742,89 +184,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.draft2(Dratf.java:40)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- draft2 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:03 EDT" name="closeBrowser" finished-at="2023-11-02T06:06:03 EDT" duration-ms="154" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:03 EDT" name="launchBrowser" finished-at="2023-11-02T06:06:07 EDT" duration-ms="3965" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="draft2()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:07 EDT" name="draft2" description="fail test 03" finished-at="2023-11-02T06:06:07 EDT" duration-ms="3" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.draft2(Dratf.java:40)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- draft2 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:11 EDT" name="closeBrowser" finished-at="2023-11-02T06:06:11 EDT" duration-ms="263" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:11 EDT" name="launchBrowser" finished-at="2023-11-02T06:06:17 EDT" duration-ms="6692" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="draft3()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:17 EDT" name="draft3" description="fail test 04" finished-at="2023-11-02T06:06:17 EDT" duration-ms="2" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.draft3(Dratf.java:46)
+at openCart.functionalTests.Dratf.R1Dot1_TS001_draft4(Dratf.java:46)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -837,240 +197,33 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- draft3 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:17 EDT" name="closeBrowser" finished-at="2023-11-02T06:06:18 EDT" duration-ms="182" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:18 EDT" name="launchBrowser" finished-at="2023-11-02T06:06:24 EDT" duration-ms="6370" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="draft3()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:24 EDT" name="draft3" description="fail test 04" finished-at="2023-11-02T06:06:24 EDT" duration-ms="4" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.draft3(Dratf.java:46)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- draft3 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:24 EDT" name="closeBrowser" finished-at="2023-11-02T06:06:24 EDT" duration-ms="198" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:24 EDT" name="launchBrowser" finished-at="2023-11-02T06:06:33 EDT" duration-ms="8539" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="draft3()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:33 EDT" name="draft3" description="fail test 04" finished-at="2023-11-02T06:06:33 EDT" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.draft3(Dratf.java:46)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- draft3 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@75d4a5c2]" started-at="2023-11-02T06:06:33 EDT" name="closeBrowser" finished-at="2023-11-02T06:06:33 EDT" duration-ms="157" status="PASS">
+        </test-method> <!-- R1Dot1_TS001_draft4 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:33 EDT" name="closeBrowser" finished-at="2023-11-02T06:26:34 EDT" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- openCart.functionalTests.Dratf -->
-      <class name="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:04:34 EDT" name="launchBrowser" finished-at="2023-11-02T06:04:50 EDT" duration-ms="15897" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS001_TC001()[pri:1, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:04:50 EDT" name="r1dot1_TS001_TC001" description="R1.1_TS001_TC001 As a user I should be able to Register an Account by providing only the Mandatory fields" finished-at="2023-11-02T06:05:02 EDT" duration-ms="12046" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- r1dot1_TS001_TC001 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:02 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:04 EDT" duration-ms="1824" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:04 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:12 EDT" duration-ms="8447" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS001_TC003()[pri:3, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:12 EDT" name="r1dot1_TS001_TC003" description="R1.1_TS001_TC003 Verify Registering an Account by providing all the fields" finished-at="2023-11-02T06:05:21 EDT" duration-ms="8143" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- r1dot1_TS001_TC003 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:21 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:21 EDT" duration-ms="500" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:21 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:28 EDT" duration-ms="7225" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS001_TC004()[pri:4, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:28 EDT" name="r1dot1_TS001_TC004" description="R1.1_TS001_TC004 Verify proper error messages are displayed for the mandatory fields, when you don&#039;t provide any mandatory fields in the &#039;Register Account&#039; page and submit" finished-at="2023-11-02T06:05:31 EDT" duration-ms="3023" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- r1dot1_TS001_TC004 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:31 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:32 EDT" duration-ms="221" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:32 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:38 EDT" duration-ms="6299" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS001_TC005()[pri:5, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:38 EDT" name="r1dot1_TS001_TC005" description="R1.1_TS001_TC005 As an user I should be able to register an Account by providing only the Mandatory fields and &#039;Yes&#039; option is selected for Newsletter field" finished-at="2023-11-02T06:05:43 EDT" duration-ms="5445" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- r1dot1_TS001_TC005 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:43 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:44 EDT" duration-ms="205" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:44 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:50 EDT" duration-ms="6614" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS001_TC006()[pri:6, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:50 EDT" name="r1dot1_TS001_TC006" description="R1.1_TS001_TC006 As an user when I navigate to the registration page Newsletter field &#039;No&#039; option should be pre-selected" finished-at="2023-11-02T06:05:52 EDT" duration-ms="1622" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- r1dot1_TS001_TC006 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:52 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:52 EDT" duration-ms="221" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:52 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:57 EDT" duration-ms="5272" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS001_TC029()[pri:7, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:05:57 EDT" name="r1dot1_TS001_TC029" description="R1.1_TS001_TC029 As an user when I navigate to the registration page NEWSLETTER subscribe &quot;Yes&quot; checkBox shouldn’t be pre-selected." finished-at="2023-11-02T06:06:02 EDT" duration-ms="4873" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- r1dot1_TS001_TC029 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:06:02 EDT" name="closeBrowser" finished-at="2023-11-02T06:06:02 EDT" duration-ms="228" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:06:02 EDT" name="launchBrowser" finished-at="2023-11-02T06:06:09 EDT" duration-ms="6221" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS001_TC028()[pri:28, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:06:09 EDT" name="r1dot1_TS001_TC028" description="R1.1_TS001_TC028 Verify the application throws proper error message when user click continue button without selecting privacy and policy check box." finished-at="2023-11-02T06:06:12 EDT" duration-ms="3919" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- r1dot1_TS001_TC028 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@5bda8e08]" started-at="2023-11-02T06:06:12 EDT" name="closeBrowser" finished-at="2023-11-02T06:06:13 EDT" duration-ms="175" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- openCart.functionalTests.R1dot1_TS001_RegisterFunctionality -->
-      <class name="openCart.functionalTests.R1dot1_TS002_LoginFunctionality">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" started-at="2023-11-02T06:04:34 EDT" name="launchBrowser" finished-at="2023-11-02T06:04:49 EDT" duration-ms="14484" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS002_TC001()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" started-at="2023-11-02T06:04:49 EDT" name="r1dot1_TS002_TC001" description="R1.1_TS002_TC001 Verify logging into the Application using valid credentials" finished-at="2023-11-02T06:04:55 EDT" duration-ms="5932" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- r1dot1_TS002_TC001 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" started-at="2023-11-02T06:04:55 EDT" name="closeBrowser" finished-at="2023-11-02T06:04:55 EDT" duration-ms="563" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" started-at="2023-11-02T06:04:55 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:04 EDT" duration-ms="8747" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS002_TC002()[pri:1, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" started-at="2023-11-02T06:05:04 EDT" name="r1dot1_TS002_TC002" description="R1.1_TS002_TC002 Verify logging into the Application using invalid credentials (i.e. Invalid email address and Invalid Password)" finished-at="2023-11-02T06:05:10 EDT" duration-ms="6066" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- r1dot1_TS002_TC002 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" started-at="2023-11-02T06:05:10 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:10 EDT" duration-ms="447" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" started-at="2023-11-02T06:05:10 EDT" name="launchBrowser" finished-at="2023-11-02T06:05:19 EDT" duration-ms="8061" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="r1dot1_TS002_TC003()[pri:1, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" started-at="2023-11-02T06:05:19 EDT" name="r1dot1_TS002_TC003" description="R1.1_TS002_TC003 Verify logging into the Application using invalid email address and valid Password" finished-at="2023-11-02T06:05:22 EDT" duration-ms="3097" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- r1dot1_TS002_TC003 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot1_TS002_LoginFunctionality@1e800aaa]" started-at="2023-11-02T06:05:22 EDT" name="closeBrowser" finished-at="2023-11-02T06:05:22 EDT" duration-ms="648" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- openCart.functionalTests.R1dot1_TS002_LoginFunctionality -->
-      <class name="openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality@3cd3e762]" started-at="2023-11-02T06:04:34 EDT" name="launchBrowser" finished-at="2023-11-02T06:04:44 EDT" duration-ms="10212" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="R1dot3_TS012_TC001()[pri:0, instance:openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality@3cd3e762]" started-at="2023-11-02T06:04:44 EDT" name="R1dot3_TS012_TC001" description="R1.3_TS012_TC001 As a user I shouldn&#039;t be able to  navigate to Checkout page when there is no product in the Shopping Cart" finished-at="2023-11-02T06:04:49 EDT" duration-ms="4772" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- R1dot3_TS012_TC001 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality@3cd3e762]" started-at="2023-11-02T06:04:49 EDT" name="closeBrowser" finished-at="2023-11-02T06:04:54 EDT" duration-ms="4345" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality -->
-    </test> <!-- Draft_Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

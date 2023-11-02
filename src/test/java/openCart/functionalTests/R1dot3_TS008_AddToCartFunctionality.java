@@ -5,12 +5,12 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import base.InitialComponents;
+import base.InitialComponentsAndCommonElements;
 import pageObjectsfactory.HomePageObjects;
 import pageObjectsfactory.SearchResultPage;
 import pageObjectsfactory.ShoppingCartPage;
 
-public class R1dot3_TS008_AddToCartFunctionality extends InitialComponents{
+public class R1dot3_TS008_AddToCartFunctionality extends InitialComponentsAndCommonElements{
 	
 	private HomePageObjects homePage;
 
@@ -24,7 +24,7 @@ public class R1dot3_TS008_AddToCartFunctionality extends InitialComponents{
 		quitDriver();
 	}
 	
-	@Test(priority = 0, groups = {SMOKE, POSSITIVE}, description = "As an user I can  add  product to Cart from Search Results Page")
+	@Test(priority = 0, groups = {SMOKE, POSSITIVE}, description = "R1.3_TS008_TC003 As an user I can  add  product to Cart from Search Results Page")
 	public void R1dot3_TS008_TC003() {
 		homePage.setTextOnSearchBox("mac");
 		String expectedProductName= "iMac";

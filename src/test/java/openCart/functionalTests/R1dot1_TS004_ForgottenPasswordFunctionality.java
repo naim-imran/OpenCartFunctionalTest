@@ -5,14 +5,14 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import base.InitialComponents;
+import base.InitialComponentsAndCommonElements;
 import pageObjectsfactory.ForgottenPasswordPage;
 import pageObjectsfactory.HomePageObjects;
 import pageObjectsfactory.LoginPage;
 
 
 
-public class R1dot1_TS004_ForgottenPasswordFunctionality extends InitialComponents {
+public class R1dot1_TS004_ForgottenPasswordFunctionality extends InitialComponentsAndCommonElements {
 	
 	private HomePageObjects homePage;
 

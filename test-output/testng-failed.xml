@@ -1,29 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="testListenersAndReporter.TestNGListeners"/>
-    <listener class-name="testListenersAndReporter.TestNGiTransformer"/>
-  </listeners>
-  <test thread-count="5" parallel="classes" name="Draft_Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="openCart.functionalTests.Dratf">
         <methods>
-          <include name="draft2"/>
           <include name="closeBrowser"/>
           <include name="launchBrowser"/>
-          <include name="draft3"/>
-          <include name="draft1"/>
-          <include name="draft"/>
+          <include name="R1Dot1_TS001_draft4"/>
+          <include name="R1Dot1_TS001_draft2"/>
+          <include name="R1Dot1_TS001_draft3"/>
+          <include name="R1Dot1_TS001_draft1"/>
         </methods>
       </class> <!-- openCart.functionalTests.Dratf -->
-      <class name="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality">
-        <methods>
-          <include name="launchBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="r1dot1_TS003_TC003"/>
-        </methods>
-      </class> <!-- openCart.functionalTests.R1dot1_TS003_LogoutFunctionality -->
     </classes>
-  </test> <!-- Draft_Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
