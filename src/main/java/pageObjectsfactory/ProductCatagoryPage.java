@@ -2,10 +2,10 @@ package pageObjectsfactory;
 
 import org.openqa.selenium.WebDriver;
 
-public class ProductCatagoryPage {
+public class ProductCatagoryPage extends CommonElements{
 
 	public ProductCatagoryPage(WebDriver driver) {
-		// TODO Auto-generated constructor stub
+		super(driver);
 	}
 
 }

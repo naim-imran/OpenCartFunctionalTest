@@ -24,6 +24,8 @@ public class R1dot3_TS008_AddToCartFunctionality extends InitialComponentsAndCom
 		quitDriver();
 	}
 	
+	
+	// Jira TN-59
 	@Test(priority = 0, groups = {SMOKE, POSSITIVE}, description = "R1.3_TS008_TC003 As an user I can  add  product to Cart from Search Results Page")
 	public void R1dot3_TS008_TC003() {
 		homePage.setTextOnSearchBox("mac");

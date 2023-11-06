@@ -25,24 +25,21 @@ import org.openqa.selenium.WebDriver;
 
 import com.github.javafaker.Faker;
 
-import pageObjectsfactory.CommonElements;
-
 public class Reuseables {
-
 
 	public static final String SMOKE = "smoke";
 	public static final String REGRESSION = "regression";
 	public static final String POSSITIVE = "possitive";
 	public static final String NEGATIVE = "negative";
-	private Properties prop;
+
+	private  Properties prop;
+
 	
-
-
 	public Properties loadProperty() {
 		FileInputStream fis = null;
 		try {
-			fis = new FileInputStream(System.getProperty("user.dir") + File.separator + "src" + File.separator + "main" + File.separator
-					+ "resources" + File.separator + "initialdata.properties");
+			fis = new FileInputStream(System.getProperty("user.dir") + File.separator + "src" + File.separator + "main"
+					+ File.separator + "resources" + File.separator + "initialdata.properties");
 			prop = new Properties();
 			prop.load(fis);
 		} catch (IOException e) {
@@ -61,7 +58,7 @@ public class Reuseables {
 
 		TakesScreenshot screenshot = (TakesScreenshot) driver;
 		File source = screenshot.getScreenshotAs(OutputType.FILE);
-		String dest = folderPath +  testCaseName + getTimeStamp() + ".png";
+		String dest = folderPath + testCaseName + getTimeStamp() + ".png";
 		File file = new File(dest);
 		try {
 			FileUtils.copyFile(source, file);
@@ -70,7 +67,7 @@ public class Reuseables {
 			e.printStackTrace();
 		}
 		return file.getAbsolutePath();
-	} 
+	}
 
 	public HashMap<String, String> getFakerTestData() {
 		HashMap<String, String> hashMap = new HashMap<String, String>();
@@ -210,7 +207,5 @@ public class Reuseables {
 		}
 		return dataList;
 	}
-	
-	
-}
 
+}

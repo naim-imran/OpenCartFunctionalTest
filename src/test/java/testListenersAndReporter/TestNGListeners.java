@@ -1,6 +1,7 @@
 package testListenersAndReporter;
 
 import java.io.File;
+import java.util.HashMap;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
@@ -11,9 +12,10 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import base.Reuseables;
 
-public class TestNGListeners extends Reuseables implements ITestListener {
+import base.InitialComponentsAndCommonElements;
+
+public class TestNGListeners extends InitialComponentsAndCommonElements implements ITestListener {
 
 	
 
@@ -34,8 +36,18 @@ public class TestNGListeners extends Reuseables implements ITestListener {
 		ExtentSparkReporter configureReport = new ExtentSparkReporter(
 				resultfolderPath + context.getName() + "_report" + timeStamp + ".html");
 		configureReport.config().setReportName(context.getName());
+		configureReport.config().setDocumentTitle(context.getName());
+		
 		setReport = new ExtentReports();
 		setReport.attachReporter(configureReport);
+		setReport.setSystemInfo("Operating System: "+ System.getProperty("os.name"), "version: "+ System.getProperty("os.version"));
+		setReport.setSystemInfo("Programing Language: java", "version "+ System.getProperty("java.version"));
+		
+		
+		HashMap<String, String> browserNameAndVersion = getBrowserNameVersion();
+		setReport.setSystemInfo("WebBrowser: "+ browserNameAndVersion.get("name"), "version: "+ browserNameAndVersion.get("version"));
+
+
 
 	}
 

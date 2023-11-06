@@ -1,7 +1,10 @@
 package base;
 
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.Properties;
 
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -9,6 +12,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import pageObjectsfactory.HomePageObjects;
 
@@ -19,16 +23,17 @@ public class InitialComponentsAndCommonElements extends Reuseables{
 	// listener class
 
 	private ThreadLocal<WebDriver> threadLocaldriver = new ThreadLocal<WebDriver>();
+	private Properties prop;
 	
 
 
 	public WebDriver setupThreadLocalDriver() {
-
+		prop= loadProperty();
 		String browserName = System.getProperty("browser") != null ? System.getProperty("browser")
-				: loadProperty().getProperty("browser");
-		String browserVersion = loadProperty().getProperty("browserVersion");
-		String headLessMode = loadProperty().getProperty("headlessMode");
-		boolean insecureCertificate = Boolean.parseBoolean(loadProperty().getProperty("insecureCertificate"));
+				: prop.getProperty("browser");
+		String browserVersion = prop.getProperty("browserVersion");
+		String headLessMode = prop.getProperty("headlessMode");
+		boolean insecureCertificate = Boolean.parseBoolean(prop.getProperty("insecureCertificate"));
 		
 		
 
@@ -91,11 +96,25 @@ public class InitialComponentsAndCommonElements extends Reuseables{
 	public HomePageObjects launchApplicationHomePage() {
 		setupThreadLocalDriver();
 		// System.out.println("Thread ID= " + Thread.currentThread().getId());
-		long implicitWaitTime = Long.parseLong(loadProperty().getProperty("implicitWaitTime"));
+		long implicitWaitTime = Long.parseLong(prop.getProperty("implicitWaitTime"));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWaitTime));
 		driver.manage().window().maximize();
-		driver.get(loadProperty().getProperty("testServerURL"));
+		driver.get(prop.getProperty("testServerURL"));
 		return new HomePageObjects(driver);
+	}
+	
+	public HashMap<String, String> getBrowserNameVersion() {
+		setupThreadLocalDriver();
+		RemoteWebDriver remoteWebDriver = (RemoteWebDriver) setupThreadLocalDriver();
+		Capabilities caps = remoteWebDriver.getCapabilities();
+		String browserName = caps.getBrowserName();
+		String browserVersion = caps.getBrowserVersion();
+	
+		HashMap<String, String> hashMap = new HashMap<String, String>();
+		hashMap.put("name", browserName);
+		hashMap.put("version", browserVersion);
+		quitDriver();
+		return hashMap;
 	}
 
 	public void quitDriver() {

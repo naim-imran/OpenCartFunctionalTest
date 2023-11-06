@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="0" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-02T06:26:01 EDT" name="Default suite" finished-at="2023-11-02T06:26:34 EDT" duration-ms="32156">
+  <suite started-at="2023-11-06T05:21:45 EST" name="OpenCart Functional Test" finished-at="2023-11-06T05:22:13 EST" duration-ms="27711">
     <groups>
     </groups>
-    <test started-at="2023-11-02T06:26:01 EDT" name="Default test" finished-at="2023-11-02T06:26:34 EDT" duration-ms="32156">
+    <test started-at="2023-11-06T05:21:45 EST" name="OpenCart Functional Draft_Test" finished-at="2023-11-06T05:22:13 EST" duration-ms="27711">
       <class name="openCart.functionalTests.Dratf">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:01 EDT" name="launchBrowser" finished-at="2023-11-02T06:26:12 EDT" duration-ms="10542" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:21:48 EST" name="launchBrowser" finished-at="2023-11-06T05:21:54 EST" duration-ms="5764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="R1Dot1_TS001_draft1()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:12 EDT" name="R1Dot1_TS001_draft1" description="fail test 01" finished-at="2023-11-02T06:26:12 EDT" duration-ms="18" status="FAIL">
+        <test-method signature="R1Dot1_TS001_draft1()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:21:54 EST" name="R1Dot1_TS001_draft1" description="fail test 01" finished-at="2023-11-06T05:21:54 EST" duration-ms="20" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -35,37 +35,24 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- R1Dot1_TS001_draft1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:12 EDT" name="closeBrowser" finished-at="2023-11-02T06:26:12 EDT" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:21:54 EST" name="closeBrowser" finished-at="2023-11-06T05:21:55 EST" duration-ms="130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:12 EDT" name="launchBrowser" finished-at="2023-11-02T06:26:20 EDT" duration-ms="7670" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:21:55 EST" name="launchBrowser" finished-at="2023-11-06T05:22:00 EST" duration-ms="5479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="R1Dot1_TS001_draft2()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:20 EDT" name="R1Dot1_TS001_draft2" description="fail test 02" finished-at="2023-11-02T06:26:20 EDT" duration-ms="2" status="FAIL">
+        <test-method signature="R1Dot1_TS001_draft2()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:22:00 EST" name="R1Dot1_TS001_draft2" description="fail test 02" finished-at="2023-11-06T05:22:00 EST" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -89,37 +76,24 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- R1Dot1_TS001_draft2 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:20 EDT" name="closeBrowser" finished-at="2023-11-02T06:26:20 EDT" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:22:00 EST" name="closeBrowser" finished-at="2023-11-06T05:22:01 EST" duration-ms="212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:20 EDT" name="launchBrowser" finished-at="2023-11-02T06:26:26 EDT" duration-ms="6254" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:22:01 EST" name="launchBrowser" finished-at="2023-11-06T05:22:06 EST" duration-ms="5384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="R1Dot1_TS001_draft3()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:26 EDT" name="R1Dot1_TS001_draft3" description="fail test 03" finished-at="2023-11-02T06:26:26 EDT" duration-ms="0" status="FAIL">
+        <test-method signature="R1Dot1_TS001_draft3()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:22:06 EST" name="R1Dot1_TS001_draft3" description="fail test 03" finished-at="2023-11-06T05:22:06 EST" duration-ms="3" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -143,37 +117,24 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- R1Dot1_TS001_draft3 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:26 EDT" name="closeBrowser" finished-at="2023-11-02T06:26:26 EDT" duration-ms="182" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:22:06 EST" name="closeBrowser" finished-at="2023-11-06T05:22:06 EST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:26 EDT" name="launchBrowser" finished-at="2023-11-02T06:26:33 EDT" duration-ms="6821" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:22:06 EST" name="launchBrowser" finished-at="2023-11-06T05:22:12 EST" duration-ms="5707" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="R1Dot1_TS001_draft4()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:33 EDT" name="R1Dot1_TS001_draft4" description="fail test 04" finished-at="2023-11-02T06:26:33 EDT" duration-ms="2" status="FAIL">
+        <test-method signature="R1Dot1_TS001_draft4()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:22:12 EST" name="R1Dot1_TS001_draft4" description="fail test 04" finished-at="2023-11-06T05:22:12 EST" duration-ms="2" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -197,33 +158,20 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- R1Dot1_TS001_draft4 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@368f2016]" started-at="2023-11-02T06:26:33 EDT" name="closeBrowser" finished-at="2023-11-02T06:26:34 EDT" duration-ms="180" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:22:12 EST" name="closeBrowser" finished-at="2023-11-06T05:22:13 EST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- openCart.functionalTests.Dratf -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- OpenCart Functional Draft_Test -->
+  </suite> <!-- OpenCart Functional Test -->
 </testng-results>
