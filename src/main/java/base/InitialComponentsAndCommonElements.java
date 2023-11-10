@@ -93,14 +93,25 @@ public class InitialComponentsAndCommonElements extends Reuseables{
 		return driver;
 	}
 
-	public HomePageObjects launchApplicationHomePage() {
+	public HomePageObjects launchApplication() {
 		setupThreadLocalDriver();
 		// System.out.println("Thread ID= " + Thread.currentThread().getId());
 		long implicitWaitTime = Long.parseLong(prop.getProperty("implicitWaitTime"));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWaitTime));
 		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
 		driver.get(prop.getProperty("testServerURL"));
 		return new HomePageObjects(driver);
+	}
+	
+	public void launchApplication(String testServerURL) {
+		setupThreadLocalDriver();
+		long implicitWaitTime = Long.parseLong(prop.getProperty("implicitWaitTime"));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitWaitTime));
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.get(prop.getProperty(testServerURL));
+
 	}
 	
 	public HashMap<String, String> getBrowserNameVersion() {

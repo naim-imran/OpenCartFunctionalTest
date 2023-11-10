@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>OpenCart Functional Draft_Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/4/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>23/5/10</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Nov 06 05:21:45 EST 2023</td>
+<td>Started on:</td><td>Thu Nov 09 03:19:42 EST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>27 seconds (27711 ms)</td>
+<tr><td>Total time:</td><td>122 seconds (122818 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,46 +76,14 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='openCart.functionalTests.Dratf.R1Dot1_TS001_draft2()'><b>R1Dot1_TS001_draft2</b><br>Test class: openCart.functionalTests.Dratf<br>Test method: fail test 02</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft2(Dratf.java:34)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1832526456", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1832526456'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft2(Dratf.java:34)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-</pre></div></td>
-<td>0</td>
-<td>openCart.functionalTests.Dratf@4c583ecf</td></tr>
-<tr>
-<td title='openCart.functionalTests.Dratf.R1Dot1_TS001_draft3()'><b>R1Dot1_TS001_draft3</b><br>Test class: openCart.functionalTests.Dratf<br>Test method: fail test 03</td>
+<td title='openCart.functionalTests.Dratf.R1Dot1_TS001_draft3()'><b>R1Dot1_TS001_draft3</b><br>Test class: openCart.functionalTests.Dratf<br>Test method: Intentional fail test 03</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
 	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft3(Dratf.java:40)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1601661541", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1601661541'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace489101011", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace489101011'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertTrue(Assert.java:56)
@@ -127,6 +95,346 @@ function toggleAllBoxes() {
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>openCart.functionalTests.Dratf@408d971b</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC003()'><b>r1dot1_TS003_TC003</b><br>Test class: openCart.functionalTests.R1dot1_TS003_LogoutFunctionality<br>Test method: R1.1_TS003_TC003 Verify the Application session status, after logging and closing the Browser without logging out</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class=&apos;dropdown-menu dropdown-menu-right&apos;]//a[text()=&apos;My Account&apos;]&quot;}
+  (Session info: chrome=116.0.5845.96)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cde9b59b9a0db4f39998de04df41cee4, findElement {using=xpath, value=//ul[@class=&apos;dropdown-menu dropdown-menu-right&apos;]//a[text()=&apos;My Account&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51923}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51923/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cde9b59b9a0db4f39998de04df41cee4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at pageObjectsfactory.CommonElements.click_MyAccount(CommonElements.java:96)
+	at openCart.functionalTests.R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC003(R1dot1_TS003_LogoutFunctionality.java:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1651979888", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1651979888'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class=&apos;dropdown-menu dropdown-menu-right&apos;]//a[text()=&apos;My Account&apos;]&quot;}
+  (Session info: chrome=116.0.5845.96)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cde9b59b9a0db4f39998de04df41cee4, findElement {using=xpath, value=//ul[@class=&apos;dropdown-menu dropdown-menu-right&apos;]//a[text()=&apos;My Account&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51923}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51923/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cde9b59b9a0db4f39998de04df41cee4
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at pageObjectsfactory.CommonElements.click_MyAccount(CommonElements.java:96)
+	at openCart.functionalTests.R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC003(R1dot1_TS003_LogoutFunctionality.java:73)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>20</td>
+<td>openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@9d5509a</td></tr>
+<tr>
+<td title='openCart.functionalTests.Dratf.R1Dot1_TS001_draft1()'><b>R1Dot1_TS001_draft1</b><br>Test class: openCart.functionalTests.Dratf<br>Test method: Intentional fail test 01</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft1(Dratf.java:27)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace54919342", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace54919342'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft1(Dratf.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>openCart.functionalTests.Dratf@408d971b</td></tr>
+<tr>
+<td title='openCart.functionalTests.Dratf.R1Dot1_TS001_draft2()'><b>R1Dot1_TS001_draft2</b><br>Test class: openCart.functionalTests.Dratf<br>Test method: Intentional fail test 02</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft2(Dratf.java:34)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1891355653", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1891355653'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft2(Dratf.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>openCart.functionalTests.Dratf@408d971b</td></tr>
+<tr>
+<td title='openCart.functionalTests.Dratf.R1Dot1_TS001_draft4()'><b>R1Dot1_TS001_draft4</b><br>Test class: openCart.functionalTests.Dratf<br>Test method: Intentional fail test 04</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft4(Dratf.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1149436428", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1149436428'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft4(Dratf.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>openCart.functionalTests.Dratf@408d971b</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='openCart.functionalTests.R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC028()'><b>r1dot1_TS001_TC028</b><br>Test class: openCart.functionalTests.R1dot1_TS001_RegisterFunctionality<br>Test method: R1.1_TS001_TC028 Verify the application throws proper error message when user click continue button without selecting privacy and policy check box.</td>
+<td></td>
+<td>3</td>
+<td>openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@185a6e9</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC006()'><b>r1dot1_TS001_TC006</b><br>Test class: openCart.functionalTests.R1dot1_TS001_RegisterFunctionality<br>Test method: R1.1_TS001_TC006 As an user when I navigate to the registration page Newsletter field 'No' option should be pre-selected</td>
+<td></td>
+<td>1</td>
+<td>openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@185a6e9</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot1_TS002_LoginFunctionality.r1dot1_TS002_TC001()'><b>r1dot1_TS002_TC001</b><br>Test class: openCart.functionalTests.R1dot1_TS002_LoginFunctionality<br>Test method: R1.1_TS002_TC001 Verify logging into the Application using valid credentials</td>
+<td></td>
+<td>4</td>
+<td>openCart.functionalTests.R1dot1_TS002_LoginFunctionality@6f03482</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality.r1dot1_TS004_TC001()'><b>r1dot1_TS004_TC001</b><br>Test class: openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality<br>Test method: R1.1_TS004_TC001 as a Registered user I should be able to reset my password by using "Forgotten Password" link in "Returning Customer" Login box</td>
+<td></td>
+<td>4</td>
+<td>openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@179ece50</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC004()'><b>r1dot1_TS001_TC004</b><br>Test class: openCart.functionalTests.R1dot1_TS001_RegisterFunctionality<br>Test method: R1.1_TS001_TC004 Verify proper error messages are displayed for the mandatory fields, when you don't provide any mandatory fields in the 'Register Account' page and submit</td>
+<td></td>
+<td>2</td>
+<td>openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@185a6e9</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality.r1dot2_TS006_TC001()'><b>r1dot2_TS006_TC001</b><br>Test class: openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality<br>Test method: R1.2_TS006_TC001 As an user I should be able to select products for comparison.</td>
+<td></td>
+<td>21</td>
+<td>openCart.functionalTests.R1dot2_TS006_ProductCompareFunctionality@3cd3e762</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC005()'><b>r1dot1_TS001_TC005</b><br>Test class: openCart.functionalTests.R1dot1_TS001_RegisterFunctionality<br>Test method: R1.1_TS001_TC005 As an user I should be able to register an Account by providing only the Mandatory fields and 'Yes' option is selected for Newsletter field</td>
+<td></td>
+<td>4</td>
+<td>openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@185a6e9</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality.R1dot2_TS005_TC024()'><b>R1dot2_TS005_TC024</b><br>Test class: openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality<br>Test method: R1.2_TS005_TC024 Verify user can select a product from featured product list from HomePage<br>Parameters: iPhone</td>
+<td></td>
+<td>2</td>
+<td>openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@3b0090a4</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality.R1dot2_TS005_TC024()'><b>R1dot2_TS005_TC024</b><br>Test class: openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality<br>Test method: R1.2_TS005_TC024 Verify user can select a product from featured product list from HomePage<br>Parameters: Canon EOS 5D</td>
+<td></td>
+<td>2</td>
+<td>openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@3b0090a4</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC001()'><b>r1dot1_TS001_TC001</b><br>Test class: openCart.functionalTests.R1dot1_TS001_RegisterFunctionality<br>Test method: R1.1_TS001_TC001 As a user I should be able to Register an Account by providing only the Mandatory fields</td>
+<td></td>
+<td>9</td>
+<td>openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@185a6e9</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality.r1dot2_TS005_TC001()'><b>r1dot2_TS005_TC001</b><br>Test class: openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality<br>Test method: R1.2_TS005_TC001 As an user I should be able to search a product which is present in database.</td>
+<td></td>
+<td>5</td>
+<td>openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@3b0090a4</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality.R1dot2_TS005_TC024()'><b>R1dot2_TS005_TC024</b><br>Test class: openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality<br>Test method: R1.2_TS005_TC024 Verify user can select a product from featured product list from HomePage<br>Parameters: MacBook</td>
+<td></td>
+<td>2</td>
+<td>openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@3b0090a4</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC029()'><b>r1dot1_TS001_TC029</b><br>Test class: openCart.functionalTests.R1dot1_TS001_RegisterFunctionality<br>Test method: R1.1_TS001_TC029 As an user when I navigate to the registration page NEWSLETTER subscribe "Yes" checkBox shouldn’t be pre-selected.</td>
+<td></td>
+<td>1</td>
+<td>openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@185a6e9</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality.R1dot3_TS012_TC015()'><b>R1dot3_TS012_TC015</b><br>Test class: openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality<br>Test method: R1.3_TS012_TC015  Verify adding comments about your order in the 'Payment Method' section of Checkout page.</td>
+<td></td>
+<td>4</td>
+<td>openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality@7eac9008</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot1_TS001_RegisterFunctionality.r1dot1_TS001_TC003()'><b>r1dot1_TS001_TC003</b><br>Test class: openCart.functionalTests.R1dot1_TS001_RegisterFunctionality<br>Test method: R1.1_TS001_TC003 Verify Registering an Account by providing all the fields</td>
+<td></td>
+<td>7</td>
+<td>openCart.functionalTests.R1dot1_TS001_RegisterFunctionality@185a6e9</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot1_TS002_LoginFunctionality.r1dot1_TS002_TC003()'><b>r1dot1_TS002_TC003</b><br>Test class: openCart.functionalTests.R1dot1_TS002_LoginFunctionality<br>Test method: R1.1_TS002_TC003 Verify logging into the Application using invalid email address and valid Password</td>
+<td></td>
+<td>2</td>
+<td>openCart.functionalTests.R1dot1_TS002_LoginFunctionality@6f03482</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality.R1dot3_TS008_TC003()'><b>R1dot3_TS008_TC003</b><br>Test class: openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality<br>Test method: R1.3_TS008_TC003 As an user I can  add  product to Cart from Search Results Page</td>
+<td></td>
+<td>6</td>
+<td>openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@1fa121e2</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality.r1dot1_TS004_TC002()'><b>r1dot1_TS004_TC002</b><br>Test class: openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality<br>Test method: R1.1_TS004_TC002 as a Registered user I should be able to reset my password by using "Forgotten Password" link in right column</td>
+<td></td>
+<td>4</td>
+<td>openCart.functionalTests.R1dot1_TS004_ForgottenPasswordFunctionality@179ece50</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC002()'><b>r1dot1_TS003_TC002</b><br>Test class: openCart.functionalTests.R1dot1_TS003_LogoutFunctionality<br>Test method: R1.1_TS003_TC002 Verify Logging out by selecting Logout option from 'Right Column' options</td>
+<td></td>
+<td>6</td>
+<td>openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@9d5509a</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality.R1dot3_TS012_TC001()'><b>R1dot3_TS012_TC001</b><br>Test class: openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality<br>Test method: R1.3_TS012_TC001 As a user I shouldn't be able to  navigate to Checkout page when there is no product in the Shopping Cart</td>
+<td></td>
+<td>1</td>
+<td>openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality@7eac9008</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC001()'><b>r1dot1_TS003_TC001</b><br>Test class: openCart.functionalTests.R1dot1_TS003_LogoutFunctionality<br>Test method: R1.1_TS003_TC001 Verify Logging out by selecting Logout option from 'My Account' drop menu</td>
+<td></td>
+<td>7</td>
+<td>openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@9d5509a</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot1_TS002_LoginFunctionality.r1dot1_TS002_TC002()'><b>r1dot1_TS002_TC002</b><br>Test class: openCart.functionalTests.R1dot1_TS002_LoginFunctionality<br>Test method: R1.1_TS002_TC002 Verify logging into the Application using invalid credentials (i.e. Invalid email address and Invalid Password)</td>
+<td></td>
+<td>4</td>
+<td>openCart.functionalTests.R1dot1_TS002_LoginFunctionality@6f03482</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality.R1dot2_TS005_TC024()'><b>R1dot2_TS005_TC024</b><br>Test class: openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality<br>Test method: R1.2_TS005_TC024 Verify user can select a product from featured product list from HomePage<br>Parameters: Apple Cinema 30"</td>
+<td></td>
+<td>2</td>
+<td>openCart.functionalTests.R1dot2_TS005_ProductSearchFunctionality@3b0090a4</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='openCart.functionalTests.Dratf.R1Dot1_TS001_draft2()'><b>R1Dot1_TS001_draft2</b><br>Test class: openCart.functionalTests.Dratf<br>Test method: Intentional fail test 02</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft2(Dratf.java:34)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace920678433", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace920678433'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft2(Dratf.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
@@ -138,16 +446,255 @@ function toggleAllBoxes() {
 	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
 <td>0</td>
-<td>openCart.functionalTests.Dratf@4c583ecf</td></tr>
+<td>openCart.functionalTests.Dratf@408d971b</td></tr>
 <tr>
-<td title='openCart.functionalTests.Dratf.R1Dot1_TS001_draft1()'><b>R1Dot1_TS001_draft1</b><br>Test class: openCart.functionalTests.Dratf<br>Test method: fail test 01</td>
+<td title='openCart.functionalTests.Dratf.R1Dot1_TS001_draft4()'><b>R1Dot1_TS001_draft4</b><br>Test class: openCart.functionalTests.Dratf<br>Test method: Intentional fail test 04</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft4(Dratf.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace529648272", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace529648272'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft4(Dratf.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>openCart.functionalTests.Dratf@408d971b</td></tr>
+<tr>
+<td title='openCart.functionalTests.R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC003()'><b>r1dot1_TS003_TC003</b><br>Test class: openCart.functionalTests.R1dot1_TS003_LogoutFunctionality<br>Test method: R1.1_TS003_TC003 Verify the Application session status, after logging and closing the Browser without logging out</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class=&apos;dropdown-menu dropdown-menu-right&apos;]//a[text()=&apos;My Account&apos;]&quot;}
+  (Session info: chrome=116.0.5845.96)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec7a5a1fc0fb19104cbcd5c61dad11ab, findElement {using=xpath, value=//ul[@class=&apos;dropdown-menu dropdown-menu-right&apos;]//a[text()=&apos;My Account&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51612}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51612/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec7a5a1fc0fb19104cbcd5c61dad11ab
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at pageObjectsfactory.CommonElements.click_MyAccount(CommonElements.java:96)
+	at openCart.functionalTests.R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC003(R1dot1_TS003_LogoutFunctionality.java:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace549397933", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace549397933'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class=&apos;dropdown-menu dropdown-menu-right&apos;]//a[text()=&apos;My Account&apos;]&quot;}
+  (Session info: chrome=116.0.5845.96)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec7a5a1fc0fb19104cbcd5c61dad11ab, findElement {using=xpath, value=//ul[@class=&apos;dropdown-menu dropdown-menu-right&apos;]//a[text()=&apos;My Account&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51612}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51612/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec7a5a1fc0fb19104cbcd5c61dad11ab
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at pageObjectsfactory.CommonElements.click_MyAccount(CommonElements.java:96)
+	at openCart.functionalTests.R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC003(R1dot1_TS003_LogoutFunctionality.java:73)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>20</td>
+<td>openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@9d5509a</td></tr>
+<tr>
+<td title='openCart.functionalTests.Dratf.R1Dot1_TS001_draft3()'><b>R1Dot1_TS001_draft3</b><br>Test class: openCart.functionalTests.Dratf<br>Test method: Intentional fail test 03</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft3(Dratf.java:40)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace373690517", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace373690517'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft3(Dratf.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>openCart.functionalTests.Dratf@408d971b</td></tr>
+<tr>
+<td title='openCart.functionalTests.Dratf.R1Dot1_TS001_draft3()'><b>R1Dot1_TS001_draft3</b><br>Test class: openCart.functionalTests.Dratf<br>Test method: Intentional fail test 03</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft3(Dratf.java:40)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1879879615", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1879879615'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft3(Dratf.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>openCart.functionalTests.Dratf@408d971b</td></tr>
+<tr>
+<td title='openCart.functionalTests.Dratf.R1Dot1_TS001_draft1()'><b>R1Dot1_TS001_draft1</b><br>Test class: openCart.functionalTests.Dratf<br>Test method: Intentional fail test 01</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
 	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft1(Dratf.java:27)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace564252245", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace564252245'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace269247624", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace269247624'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft1(Dratf.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>openCart.functionalTests.Dratf@408d971b</td></tr>
+<tr>
+<td title='openCart.functionalTests.Dratf.R1Dot1_TS001_draft4()'><b>R1Dot1_TS001_draft4</b><br>Test class: openCart.functionalTests.Dratf<br>Test method: Intentional fail test 04</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft4(Dratf.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace352173016", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace352173016'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft4(Dratf.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>openCart.functionalTests.Dratf@408d971b</td></tr>
+<tr>
+<td title='openCart.functionalTests.Dratf.R1Dot1_TS001_draft1()'><b>R1Dot1_TS001_draft1</b><br>Test class: openCart.functionalTests.Dratf<br>Test method: Intentional fail test 01</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft1(Dratf.java:27)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace463441142", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace463441142'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertTrue(Assert.java:56)
@@ -170,29 +717,108 @@ function toggleAllBoxes() {
 	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
 <td>0</td>
-<td>openCart.functionalTests.Dratf@4c583ecf</td></tr>
+<td>openCart.functionalTests.Dratf@408d971b</td></tr>
 <tr>
-<td title='openCart.functionalTests.Dratf.R1Dot1_TS001_draft4()'><b>R1Dot1_TS001_draft4</b><br>Test class: openCart.functionalTests.Dratf<br>Test method: fail test 04</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft4(Dratf.java:46)
+<td title='openCart.functionalTests.R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC003()'><b>r1dot1_TS003_TC003</b><br>Test class: openCart.functionalTests.R1dot1_TS003_LogoutFunctionality<br>Test method: R1.1_TS003_TC003 Verify the Application session status, after logging and closing the Browser without logging out</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class=&apos;dropdown-menu dropdown-menu-right&apos;]//a[text()=&apos;My Account&apos;]&quot;}
+  (Session info: chrome=116.0.5845.96)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [090c5bc4ea9f8cbb2e003e1b53c76220, findElement {using=xpath, value=//ul[@class=&apos;dropdown-menu dropdown-menu-right&apos;]//a[text()=&apos;My Account&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51810}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51810/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 090c5bc4ea9f8cbb2e003e1b53c76220
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at pageObjectsfactory.CommonElements.click_MyAccount(CommonElements.java:96)
+	at openCart.functionalTests.R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC003(R1dot1_TS003_LogoutFunctionality.java:73)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace503637522", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace503637522'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft4(Dratf.java:46)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1699549248", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1699549248'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//ul[@class=&apos;dropdown-menu dropdown-menu-right&apos;]//a[text()=&apos;My Account&apos;]&quot;}
+  (Session info: chrome=116.0.5845.96)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [090c5bc4ea9f8cbb2e003e1b53c76220, findElement {using=xpath, value=//ul[@class=&apos;dropdown-menu dropdown-menu-right&apos;]//a[text()=&apos;My Account&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\naimn\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51810}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51810/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 090c5bc4ea9f8cbb2e003e1b53c76220
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at pageObjectsfactory.CommonElements.click_MyAccount(CommonElements.java:96)
+	at openCart.functionalTests.R1dot1_TS003_LogoutFunctionality.r1dot1_TS003_TC003(R1dot1_TS003_LogoutFunctionality.java:73)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>19</td>
+<td>openCart.functionalTests.R1dot1_TS003_LogoutFunctionality@9d5509a</td></tr>
+<tr>
+<td title='openCart.functionalTests.Dratf.R1Dot1_TS001_draft2()'><b>R1Dot1_TS001_draft2</b><br>Test class: openCart.functionalTests.Dratf<br>Test method: Intentional fail test 02</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft2(Dratf.java:34)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace811718638", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace811718638'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at openCart.functionalTests.Dratf.R1Dot1_TS001_draft2(Dratf.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
@@ -202,7 +828,7 @@ function toggleAllBoxes() {
 	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
 <td>0</td>
-<td>openCart.functionalTests.Dratf@4c583ecf</td></tr>
+<td>openCart.functionalTests.Dratf@408d971b</td></tr>
 </table><p>
 </body>
 </html>

@@ -8,10 +8,11 @@
 	</listeners>
 
 	<test name="OpenCart Functional Draft_Test" parallel="classes" thread-count="10">
+		
 		<classes>
 			<class
 				name="openCart.functionalTests.Dratf" />
-<!--			<class
+			<class
 				name="openCart.functionalTests.R1dot1_TS001_RegisterFunctionality" />
 			<class
 				name="openCart.functionalTests.R1dot1_TS002_LoginFunctionality" />
@@ -26,9 +27,10 @@
 			<class
 				name="openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality" />
 			<class
-				name="openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality" />-->
+				name="openCart.functionalTests.R1dot3_TS012_CheckoutFunctionality" />
 
 		</classes>
+		
 	</test>
 
 </suite>

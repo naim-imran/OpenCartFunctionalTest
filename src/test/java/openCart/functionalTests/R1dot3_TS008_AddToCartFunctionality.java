@@ -16,7 +16,7 @@ public class R1dot3_TS008_AddToCartFunctionality extends InitialComponentsAndCom
 
 	@BeforeMethod
 	public synchronized void launchBrowser() {
-		homePage = launchApplicationHomePage();
+		homePage = launchApplication();
 	}
 
 	@AfterMethod
@@ -26,15 +26,24 @@ public class R1dot3_TS008_AddToCartFunctionality extends InitialComponentsAndCom
 	
 	
 	// Jira TN-59
-	@Test(priority = 0, groups = {SMOKE, POSSITIVE}, description = "R1.3_TS008_TC003 As an user I can  add  product to Cart from Search Results Page")
+	@Test(priority = 0, groups = {SMOKE, POSSITIVE, REGRESSION}, description = "R1.3_TS008_TC003 As an user I should be able to add product to Cart from Search Results Page")
 	public void R1dot3_TS008_TC003() {
-		homePage.setTextOnSearchBox("mac");
+		
 		String expectedProductName= "iMac";
+		
+		homePage.setTextOnSearchBox("mac");
 		SearchResultPage searchResultPage = homePage.clickSearchButton();
-		searchResultPage.click_addToCartButton(expectedProductName);
+		searchResultPage.addToCartButtonInProductThumbnail(expectedProductName);
 		ShoppingCartPage shoppingCartPage = searchResultPage.clickShoppingCartButton();
 		Assert.assertEquals(shoppingCartPage.getProductNameFromCartTable(), expectedProductName);
 	}
 	
+	@Test(priority = 1, groups = {REGRESSION, POSSITIVE}, description = "R1.3_TS008_TC001 As a guest user I should be able to add the product to Cart from 'Featured Product list add to cart button' in home Page")
+	public void R1dot3_TS008_TC001() {
+		String expectedProductName= "iphone";
+		homePage.addToCartButtonInProductThumbnail(expectedProductName);
+		
+		//Assert.assertEquals(productDetailsPage.getProductDetailsPageTitle(), "Apple Cinema 30");
+	}
 
 }

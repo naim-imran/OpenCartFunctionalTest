@@ -8,7 +8,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import base.InitialComponentsAndCommonElements;
-import base.Reuseables;
 import pageObjectsfactory.HomePageObjects;
 import pageObjectsfactory.LoginPage;
 import pageObjectsfactory.MyAccountPage;
@@ -19,7 +18,7 @@ public class R1dot1_TS002_LoginFunctionality extends InitialComponentsAndCommonE
 
 	@BeforeMethod
 	public synchronized void launchBrowser() {
-		homePage = launchApplicationHomePage();
+		homePage = launchApplication();
 	}
 
 	@AfterMethod
@@ -52,8 +51,10 @@ public class R1dot1_TS002_LoginFunctionality extends InitialComponentsAndCommonE
 		loginPage.click_loginButton();
 		Assert.assertTrue(loginPage.getLoginErrorMsg().contains("Warning"));
 	}
-
-	@Test(priority = 1, groups = { SMOKE,
+	
+	
+	// https://naayeem.atlassian.net/browse/TN-66
+	@Test(priority = 2, groups = { SMOKE,
 			NEGATIVE }, description = "R1.1_TS002_TC003 Verify logging into the Application using invalid email address and valid Password")
 	public void r1dot1_TS002_TC003() {
 		homePage.click_MyAccountDropLisButton();

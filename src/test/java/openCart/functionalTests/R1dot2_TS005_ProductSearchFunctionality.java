@@ -19,7 +19,7 @@ public class R1dot2_TS005_ProductSearchFunctionality extends InitialComponentsAn
 
 	@BeforeMethod
 	public synchronized void launchBrowser() {
-		homePage = launchApplicationHomePage();
+		homePage = launchApplication();
 	}
 
 	@AfterMethod

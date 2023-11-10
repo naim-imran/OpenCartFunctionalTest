@@ -3,7 +3,6 @@ package pageObjectsfactory;
 import java.time.Duration;
 import java.util.List;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -31,9 +30,7 @@ public class SearchResultPage extends CommonElements{
 	//
 	@FindBy(xpath = "//a[text()='product comparison']")
 	private WebElement comparisonPageLinkButton;
-	//
-	@FindBy(css = "div.product-layout")
-	private List<WebElement> listOfsearchedProduct;
+	
 	
 	//____ get Sub-title text starts with "Searched - " ____
 	public String getSearchedItemText() {
@@ -50,35 +47,7 @@ public class SearchResultPage extends CommonElements{
 		return new ProductDetailsPage(driver);
 	}
 
-	public void click_productCompareButton(String expectedProductName) {
-		for (WebElement e : listOfsearchedProduct) {
-			
-			if (e.findElement(By.cssSelector("h4")).getText().equalsIgnoreCase(expectedProductName)) {
-				System.out.println(e.findElement(By.cssSelector("h4")).getText());
-				e.findElement(By.cssSelector("button[data-original-title='Compare this Product']")).click();
-				try {
-					Thread.sleep(3000);
-				} catch (InterruptedException e1) {
-					e1.printStackTrace();
-				}
-			}
-		}
-	}
-	
-	public void click_addToCartButton(String expectedProductName) {
-		for (WebElement e : listOfsearchedProduct) {
-			
-			if (e.findElement(By.cssSelector("h4")).getText().equalsIgnoreCase(expectedProductName)) {
-				//System.out.println(e.findElement(By.cssSelector("h4")).getText());
-				e.findElement(By.cssSelector("span.hidden-xs")).click();
-				try {
-					Thread.sleep(3000);
-				} catch (InterruptedException e1) {
-					e1.printStackTrace();
-				}
-			}
-		}
-	}
+
 
 	public ProductsComparisonPage click_comparisonPageLinkButton() {
 		WebDriverWait webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(15));

@@ -34,4 +34,15 @@ public class HomePageObjects extends CommonElements{
 		}
 		return new ProductDetailsPage(driver);
 	}
+	
+	public ProductDetailsPage clickFeaturedProductAddToCartButton(String expectedProduct) {
+
+		for (WebElement webElement : featuredProducts) {
+			if (webElement.findElement(By.xpath("div[@class='caption']/h4/a")).getText().contains(expectedProduct)) {
+				webElement.findElement(By.xpath("div[@class='button-group']/button/i")).click();
+				break;
+			}
+		}
+		return new ProductDetailsPage(driver);
+	}
 }

@@ -19,7 +19,7 @@ public class R1dot1_TS003_LogoutFunctionality extends InitialComponentsAndCommon
 
 	@BeforeMethod
 	public synchronized void launchBrowser() {
-		homePage = launchApplicationHomePage();
+		homePage = launchApplication();
 	}
 
 	@AfterMethod
@@ -68,7 +68,7 @@ public class R1dot1_TS003_LogoutFunctionality extends InitialComponentsAndCommon
 		MyAccountPage accountPage = loginPage.click_loginButton();
 		Assert.assertEquals(accountPage.getPageTitle(), "My Account");
 		quitDriver();
-		HomePageObjects homePage1 = launchApplicationHomePage();
+		HomePageObjects homePage1 = launchApplication();
 		homePage1.click_MyAccountDropLisButton();
 		MyAccountPage accountPage2 = homePage1.click_MyAccount();
 		Assert.assertEquals(accountPage2.getPageTitle(), "My Account");

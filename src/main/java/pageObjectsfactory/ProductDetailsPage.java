@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class ProductDetailsPage extends CommonElements{
+public class ProductDetailsPage extends CommonElements {
 
 	private WebDriver driver;
 
@@ -21,13 +21,9 @@ public class ProductDetailsPage extends CommonElements{
 	public String getProductDetailsPageTitle() {
 		return driver.getTitle();
 	}
-	
 
-	
 	public String getrightColumnProductName() {
 		return rightColumnProductName.getText();
-		
-		
 	}
 
 }

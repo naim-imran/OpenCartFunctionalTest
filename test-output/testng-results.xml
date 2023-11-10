@@ -1,177 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="0" failed="4" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-06T05:21:45 EST" name="OpenCart Functional Test" finished-at="2023-11-06T05:22:13 EST" duration-ms="27711">
+  <suite started-at="2023-11-10T04:21:55 EST" name="Default suite" finished-at="2023-11-10T04:22:16 EST" duration-ms="21796">
     <groups>
+      <group name="possitive">
+        <method signature="R1dot3_TS008_AddToCartFunctionality.R1dot3_TS008_TC003()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@4d5d943d]" name="R1dot3_TS008_TC003" class="openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality"/>
+        <method signature="R1dot3_TS008_AddToCartFunctionality.R1dot3_TS008_TC001()[pri:1, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@4d5d943d]" name="R1dot3_TS008_TC001" class="openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality"/>
+      </group> <!-- possitive -->
+      <group name="regression">
+        <method signature="R1dot3_TS008_AddToCartFunctionality.R1dot3_TS008_TC003()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@4d5d943d]" name="R1dot3_TS008_TC003" class="openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality"/>
+        <method signature="R1dot3_TS008_AddToCartFunctionality.R1dot3_TS008_TC001()[pri:1, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@4d5d943d]" name="R1dot3_TS008_TC001" class="openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="R1dot3_TS008_AddToCartFunctionality.R1dot3_TS008_TC003()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@4d5d943d]" name="R1dot3_TS008_TC003" class="openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-11-06T05:21:45 EST" name="OpenCart Functional Draft_Test" finished-at="2023-11-06T05:22:13 EST" duration-ms="27711">
-      <class name="openCart.functionalTests.Dratf">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:21:48 EST" name="launchBrowser" finished-at="2023-11-06T05:21:54 EST" duration-ms="5764" status="PASS">
+    <test started-at="2023-11-10T04:21:55 EST" name="Default test" finished-at="2023-11-10T04:22:16 EST" duration-ms="21796">
+      <class name="openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@4d5d943d]" started-at="2023-11-10T04:21:55 EST" name="launchBrowser" finished-at="2023-11-10T04:22:02 EST" duration-ms="7174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="R1Dot1_TS001_draft1()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:21:54 EST" name="R1Dot1_TS001_draft1" description="fail test 01" finished-at="2023-11-06T05:21:54 EST" duration-ms="20" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.R1Dot1_TS001_draft1(Dratf.java:27)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="R1dot3_TS008_TC003()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@4d5d943d]" started-at="2023-11-10T04:22:02 EST" name="R1dot3_TS008_TC003" description="R1.3_TS008_TC003 As an user I should be able to add product to Cart from Search Results Page" finished-at="2023-11-10T04:22:07 EST" duration-ms="4961" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- R1Dot1_TS001_draft1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:21:54 EST" name="closeBrowser" finished-at="2023-11-06T05:21:55 EST" duration-ms="130" status="PASS">
+        </test-method> <!-- R1dot3_TS008_TC003 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@4d5d943d]" started-at="2023-11-10T04:22:07 EST" name="closeBrowser" finished-at="2023-11-10T04:22:07 EST" duration-ms="454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:21:55 EST" name="launchBrowser" finished-at="2023-11-06T05:22:00 EST" duration-ms="5479" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@4d5d943d]" started-at="2023-11-10T04:22:07 EST" name="launchBrowser" finished-at="2023-11-10T04:22:13 EST" duration-ms="5433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="R1Dot1_TS001_draft2()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:22:00 EST" name="R1Dot1_TS001_draft2" description="fail test 02" finished-at="2023-11-06T05:22:00 EST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.R1Dot1_TS001_draft2(Dratf.java:34)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="R1dot3_TS008_TC001()[pri:1, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@4d5d943d]" started-at="2023-11-10T04:22:13 EST" name="R1dot3_TS008_TC001" description="R1.3_TS008_TC001 As a guest user I should be able to add the product to Cart from &#039;Featured Product list add to cart button&#039; in home Page" finished-at="2023-11-10T04:22:16 EST" duration-ms="3305" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- R1Dot1_TS001_draft2 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:22:00 EST" name="closeBrowser" finished-at="2023-11-06T05:22:01 EST" duration-ms="212" status="PASS">
+        </test-method> <!-- R1dot3_TS008_TC001 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@4d5d943d]" started-at="2023-11-10T04:22:16 EST" name="closeBrowser" finished-at="2023-11-10T04:22:16 EST" duration-ms="378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:22:01 EST" name="launchBrowser" finished-at="2023-11-06T05:22:06 EST" duration-ms="5384" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="R1Dot1_TS001_draft3()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:22:06 EST" name="R1Dot1_TS001_draft3" description="fail test 03" finished-at="2023-11-06T05:22:06 EST" duration-ms="3" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.R1Dot1_TS001_draft3(Dratf.java:40)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- R1Dot1_TS001_draft3 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:22:06 EST" name="closeBrowser" finished-at="2023-11-06T05:22:06 EST" duration-ms="185" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:22:06 EST" name="launchBrowser" finished-at="2023-11-06T05:22:12 EST" duration-ms="5707" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="R1Dot1_TS001_draft4()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:22:12 EST" name="R1Dot1_TS001_draft4" description="fail test 04" finished-at="2023-11-06T05:22:12 EST" duration-ms="2" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at openCart.functionalTests.Dratf.R1Dot1_TS001_draft4(Dratf.java:46)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- R1Dot1_TS001_draft4 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.Dratf@4c583ecf]" started-at="2023-11-06T05:22:12 EST" name="closeBrowser" finished-at="2023-11-06T05:22:13 EST" duration-ms="188" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- openCart.functionalTests.Dratf -->
-    </test> <!-- OpenCart Functional Draft_Test -->
-  </suite> <!-- OpenCart Functional Test -->
+      </class> <!-- openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

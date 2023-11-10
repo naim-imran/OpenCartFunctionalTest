@@ -29,9 +29,10 @@ public class ShoppingCartPage extends CommonElements{
 	}
 	
 	// returns ShoppingCart-Subtitle message.
-	public String getShoppingCartSubtitleText() {
+	public String getShoppingCartSubtitleMessage() {
 		return yourCartIsEmptyText.getText();
 	}
+	
 	// returns the name of the product in cart table
 	public String getProductNameFromCartTable() {
 		return productNameFromCartTable.getText();

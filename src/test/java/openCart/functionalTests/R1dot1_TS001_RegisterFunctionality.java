@@ -1,6 +1,5 @@
 package openCart.functionalTests;
 
-import java.io.IOException;
 import java.util.HashMap;
 
 import org.testng.Assert;
@@ -10,7 +9,6 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import base.InitialComponentsAndCommonElements;
-import base.Reuseables;
 import pageObjectsfactory.AccountCreationSuccessPage;
 import pageObjectsfactory.HomePageObjects;
 import pageObjectsfactory.MyAccountPage;
@@ -22,9 +20,9 @@ public class R1dot1_TS001_RegisterFunctionality extends InitialComponentsAndComm
 	
 
 	@BeforeMethod
-	public synchronized void launchBrowser() {
+	public  void launchBrowser() {
 
-		homePage = launchApplicationHomePage();
+		homePage = launchApplication();
 	}
 
 	@AfterMethod
@@ -78,7 +76,7 @@ public class R1dot1_TS001_RegisterFunctionality extends InitialComponentsAndComm
 	}
 
 	@Test(priority = 4, groups = {SMOKE,NEGATIVE}, description = "R1.1_TS001_TC004 Verify proper error messages are displayed for the mandatory fields, when you don't provide any mandatory fields in the 'Register Account' page and submit")
-	public void r1dot1_TS001_TC004() throws InterruptedException, IOException {
+	public void r1dot1_TS001_TC004() {
 		SoftAssert softAssert= new SoftAssert();
 		homePage.click_MyAccountDropLisButton();
 		RegistrationPage registrationPage = homePage.click_registerButton();

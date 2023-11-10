@@ -17,6 +17,13 @@
           <include name="R1Dot1_TS001_draft1"/>
         </methods>
       </class> <!-- openCart.functionalTests.Dratf -->
+      <class name="openCart.functionalTests.R1dot1_TS003_LogoutFunctionality">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="r1dot1_TS003_TC003"/>
+        </methods>
+      </class> <!-- openCart.functionalTests.R1dot1_TS003_LogoutFunctionality -->
     </classes>
   </test> <!-- OpenCart Functional Draft_Test(failed) -->
 </suite> <!-- Failed suite [OpenCart Functional Test] -->
