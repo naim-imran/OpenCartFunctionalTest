@@ -38,4 +38,6 @@ public class ShoppingCartPage extends CommonElements{
 		return productNameFromCartTable.getText();
 	}
 
+	
+
 }

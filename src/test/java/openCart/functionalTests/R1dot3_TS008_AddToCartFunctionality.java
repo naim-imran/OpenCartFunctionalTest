@@ -21,7 +21,7 @@ public class R1dot3_TS008_AddToCartFunctionality extends InitialComponentsAndCom
 
 	@AfterMethod
 	public void closeBrowser() {
-		quitDriver();
+		//quitDriver();
 	}
 	
 	
@@ -40,10 +40,13 @@ public class R1dot3_TS008_AddToCartFunctionality extends InitialComponentsAndCom
 	
 	@Test(priority = 1, groups = {REGRESSION, POSSITIVE}, description = "R1.3_TS008_TC001 As a guest user I should be able to add the product to Cart from 'Featured Product list add to cart button' in home Page")
 	public void R1dot3_TS008_TC001() {
-		String expectedProductName= "iphone";
+		String expectedProductName= "iPhone";
 		homePage.addToCartButtonInProductThumbnail(expectedProductName);
+		ShoppingCartPage cart = homePage.clickShoppingCartButton();
+		Assert.assertEquals(cart.getShoppingCartPageTitle(), "Shopping Cart");
+		Assert.assertTrue(cart.getProductNameFromCartTable().contains(expectedProductName));
 		
-		//Assert.assertEquals(productDetailsPage.getProductDetailsPageTitle(), "Apple Cinema 30");
+		
 	}
 
 }
