@@ -17,11 +17,12 @@ public class R1dot3_TS008_AddToCartFunctionality extends InitialComponentsAndCom
 	@BeforeMethod
 	public synchronized void launchBrowser() {
 		homePage = launchApplication();
+		System.out.println("Thread ID= " + Thread.currentThread().getId());
 	}
 
 	@AfterMethod
 	public void closeBrowser() {
-		//quitDriver();
+		quitDriver();
 	}
 	
 	

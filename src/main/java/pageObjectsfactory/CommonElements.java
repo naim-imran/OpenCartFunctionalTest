@@ -16,9 +16,7 @@ import org.testng.asserts.SoftAssert;
 
 import base.Reuseables;
 
-
-
-public class CommonElements{
+public class CommonElements {
 
 	private WebDriver driver;
 
@@ -51,28 +49,28 @@ public class CommonElements{
 	private WebElement myAccountDropList;
 	@FindBy(xpath = "//ul[@class='dropdown-menu dropdown-menu-right']/li/a[text()='Register']")
 	private WebElement registerButton;
-	@FindBy(xpath= "//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']")
+	@FindBy(xpath = "//ul[@class='dropdown-menu dropdown-menu-right']//a[text()='My Account']")
 	private WebElement myAccountButton;
 	@FindBy(xpath = "//a[@href='https://tutorialsninja.com/demo/index.php?route=account/login']")
 	private WebElement loginButton;
-	@FindBy(xpath= "//li[@class='dropdown open']//a[text()='Logout']")
-	private WebElement accountDropDownLogoutButton;	
+	@FindBy(xpath = "//li[@class='dropdown open']//a[text()='Logout']")
+	private WebElement accountDropDownLogoutButton;
 	// Header Checkout button.
 	@FindBy(xpath = "//i[@class='fa fa-share']/following-sibling::span")
 	private WebElement headerCheckOutButton;
 	// cart total button
-	@FindBy(xpath= "//span[@id='cart-total']")
+	@FindBy(xpath = "//span[@id='cart-total']")
 	private WebElement totalCartItemsAndPriceButton;
-	@FindBy(xpath= "//a[text()='Desktops']")
+	@FindBy(xpath = "//a[text()='Desktops']")
 	private WebElement navBarDesktopDropdownButton;
-	@FindBy(xpath= "//li[@class='dropdown open']//a[contains(text(),'PC')]")
+	@FindBy(xpath = "//li[@class='dropdown open']//a[contains(text(),'PC')]")
 	private WebElement navBarDesktopDropdownPC;
 	// List of Searched products.
 	@FindBy(css = "div.product-layout")
 	private List<WebElement> listOfSearchedProduct;
-	
-	
-	
+	// header wishList
+	@FindBy(css = "a#wishlist-total")
+	private WebElement headerWishListButton;
 
 	public ShoppingCartPage clickShoppingCartButton() {
 		shoppingCartButton.click();
@@ -95,10 +93,12 @@ public class CommonElements{
 	public void click_MyAccountDropLisButton() {
 		myAccountDropList.click();
 	}
+
 	public MyAccountPage click_MyAccount() {
 		myAccountButton.click();
 		return new MyAccountPage(driver);
 	}
+
 	public RegistrationPage click_registerButton() {
 		registerButton.click();
 		return new RegistrationPage(driver);
@@ -108,6 +108,7 @@ public class CommonElements{
 		loginButton.click();
 		return new LoginPage(driver);
 	}
+
 	public LogOutPage clickAccountDropDownLogoutButton() {
 		accountDropDownLogoutButton.click();
 		return new LogOutPage(driver);
@@ -136,39 +137,42 @@ public class CommonElements{
 	public void click_telephone() {
 		telephone.click();
 	}
-	
+
 	public void clickTotalCartItemsAndPriceButton() {
 		totalCartItemsAndPriceButton.click();
 	}
-	
+
 	public void clickNavBarDesktopDropdownButton() {
 		navBarDesktopDropdownButton.click();
 	}
+
 	public ProductCatagoryPage clickNavBarDesktopDropdownPC() {
 		navBarDesktopDropdownPC.click();
 		return new ProductCatagoryPage(driver);
 	}
+
 	// returns total number of cart items.
 	public int totalCartItems() {
 		char totalItems = totalCartItemsAndPriceButton.getText().charAt(0);
-		return Character.getNumericValue(totalItems);	
-	}	
+		return Character.getNumericValue(totalItems);
+	}
+
 	// click header checkOut Button.
 	public CheckoutPage headerCheckoutButton() {
-		WebDriverWait driverWait= new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebDriverWait driverWait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		driverWait.until(ExpectedConditions.elementToBeClickable(headerCheckOutButton));
 		if (headerCheckOutButton.getText().contains("Checkout")) {
 			headerCheckOutButton.click();
 			return new CheckoutPage(driver);
 		}
-		return null;	
+		return null;
 	}
-	
+
 	public void click_productCompareButton(String expectedProductName) {
 		for (WebElement e : listOfSearchedProduct) {
-			
+
 			if (e.findElement(By.cssSelector("h4")).getText().equalsIgnoreCase(expectedProductName)) {
-				//System.out.println(e.findElement(By.cssSelector("h4")).getText());
+				// System.out.println(e.findElement(By.cssSelector("h4")).getText());
 				e.findElement(By.cssSelector("button[data-original-title='Compare this Product']")).click();
 				try {
 					Thread.sleep(3000);
@@ -178,14 +182,40 @@ public class CommonElements{
 			}
 		}
 	}
-	
+
 	public void addToCartButtonInProductThumbnail(String expectedProductName) {
 		for (WebElement e : listOfSearchedProduct) {
-			
+
 			if (e.findElement(By.cssSelector("h4")).getText().equalsIgnoreCase(expectedProductName)) {
-				WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(10));
-				wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("span.hidden-xs.hidden-sm.hidden-md")));
-				e.findElement(By.cssSelector("span.hidden-xs.hidden-sm.hidden-md")).click();
+				WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+				wait.until(
+						ExpectedConditions.elementToBeClickable(By.cssSelector("span.hidden-xs.hidden-sm.hidden-md")));
+				e.findElement(By.cssSelector("span[class='hidden-xs hidden-sm hidden-md']")).click();
+				try {
+					Thread.sleep(3000);
+				} catch (InterruptedException e1) {
+					e1.printStackTrace();
+				}
+				break;
+			}
+		}
+	}
+	
+	// click header wishlist button.
+	public LoginPage clickHeaderWishListButton() {
+		headerWishListButton.click();
+		
+		return new LoginPage(driver);
+	}
+
+	public void addtoWishListInProductThumbnail(String expectedProductName) {
+		for (WebElement e : listOfSearchedProduct) {
+
+			if (e.findElement(By.cssSelector("h4")).getText().equalsIgnoreCase(expectedProductName)) {
+				WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+				wait.until(
+						ExpectedConditions.elementToBeClickable(By.cssSelector("span.hidden-xs.hidden-sm.hidden-md")));
+				e.findElement(By.cssSelector("button[data-original-title='Add to Wish List']")).click();
 				try {
 					Thread.sleep(3000);
 				} catch (InterruptedException e1) {
@@ -197,7 +227,7 @@ public class CommonElements{
 	}
 
 	public void validateAllFooterLinks(WebDriver driver) {
-		
+
 		SoftAssert softAssert = new SoftAssert();
 		List<WebElement> footerLinks = driver.findElements(By.xpath("//footer//div[@class='col-sm-3']//li/a"));
 		byte count = 1;
@@ -219,6 +249,5 @@ public class CommonElements{
 			count++;
 		}
 	}
-	
 
 }

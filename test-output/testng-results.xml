@@ -2,7 +2,7 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-10T04:44:06 EST" name="Default suite" finished-at="2023-11-10T04:44:18 EST" duration-ms="11881">
+  <suite started-at="2023-11-11T05:33:59 EST" name="Default suite" finished-at="2023-11-11T05:34:11 EST" duration-ms="11875">
     <groups>
       <group name="possitive">
         <method signature="R1dot3_TS008_AddToCartFunctionality.R1dot3_TS008_TC001()[pri:1, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@47eaca72]" name="R1dot3_TS008_TC001" class="openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality"/>
@@ -11,17 +11,17 @@
         <method signature="R1dot3_TS008_AddToCartFunctionality.R1dot3_TS008_TC001()[pri:1, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@47eaca72]" name="R1dot3_TS008_TC001" class="openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2023-11-10T04:44:06 EST" name="Default test" finished-at="2023-11-10T04:44:18 EST" duration-ms="11881">
+    <test started-at="2023-11-11T05:33:59 EST" name="Default test" finished-at="2023-11-11T05:34:11 EST" duration-ms="11875">
       <class name="openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@47eaca72]" started-at="2023-11-10T04:44:06 EST" name="launchBrowser" finished-at="2023-11-10T04:44:14 EST" duration-ms="7768" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@47eaca72]" started-at="2023-11-11T05:33:59 EST" name="launchBrowser" finished-at="2023-11-11T05:34:06 EST" duration-ms="7428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="R1dot3_TS008_TC001()[pri:1, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@47eaca72]" started-at="2023-11-10T04:44:14 EST" name="R1dot3_TS008_TC001" description="R1.3_TS008_TC001 As a guest user I should be able to add the product to Cart from &#039;Featured Product list add to cart button&#039; in home Page" finished-at="2023-11-10T04:44:18 EST" duration-ms="4001" status="PASS">
+        <test-method signature="R1dot3_TS008_TC001()[pri:1, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@47eaca72]" started-at="2023-11-11T05:34:06 EST" name="R1dot3_TS008_TC001" description="R1.3_TS008_TC001 As a guest user I should be able to add the product to Cart from &#039;Featured Product list add to cart button&#039; in home Page" finished-at="2023-11-11T05:34:10 EST" duration-ms="3930" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- R1dot3_TS008_TC001 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@47eaca72]" started-at="2023-11-10T04:44:18 EST" name="closeBrowser" finished-at="2023-11-10T04:44:18 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:openCart.functionalTests.R1dot3_TS008_AddToCartFunctionality@47eaca72]" started-at="2023-11-11T05:34:10 EST" name="closeBrowser" finished-at="2023-11-11T05:34:11 EST" duration-ms="414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

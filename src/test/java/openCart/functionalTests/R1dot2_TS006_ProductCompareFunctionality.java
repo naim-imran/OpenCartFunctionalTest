@@ -21,7 +21,7 @@ public class R1dot2_TS006_ProductCompareFunctionality extends InitialComponentsA
 
 	@AfterMethod
 	public void closeBrowser() {
-		//quitDriver();
+		quitDriver();
 	}
 
 	@Test(priority = 1, groups = POSSITIVE, description = "R1.2_TS006_TC001 As an user I should be able to select products for comparison.")

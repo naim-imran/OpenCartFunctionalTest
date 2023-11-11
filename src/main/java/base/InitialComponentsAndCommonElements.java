@@ -111,7 +111,6 @@ public class InitialComponentsAndCommonElements extends Reuseables{
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.get(prop.getProperty(testServerURL));
-
 	}
 	
 	public HashMap<String, String> getBrowserNameVersion() {
@@ -136,3 +135,5 @@ public class InitialComponentsAndCommonElements extends Reuseables{
 		}
 	}
 }
+
+
