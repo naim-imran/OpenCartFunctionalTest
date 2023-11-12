@@ -22,7 +22,7 @@ public class R1dot3_TS009_WishListtFunctionality extends InitialComponentsAndCom
 
 	@AfterMethod
 	public void closeBrowser() {
-		//quitDriver();
+		quitDriver();
 	}
 	
 	
